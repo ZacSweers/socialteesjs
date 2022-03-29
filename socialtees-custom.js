@@ -16,7 +16,7 @@
     $loader: null,
 
     isLoading: true,
-    numToLoad: 9,
+    numToLoad: 45,
     totalPets: 0,
     petsVisible: 0,
     petsToShow: 0,
