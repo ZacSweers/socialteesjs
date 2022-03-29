@@ -16,7 +16,8 @@
     $loader: null,
 
     isLoading: true,
-    numToLoad: 45,
+    // PetFinder only shows 20 per page and we don't currently support pagination
+    numToLoad: 20,
     totalPets: 0,
     petsVisible: 0,
     petsToShow: 0,
