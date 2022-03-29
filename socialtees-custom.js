@@ -208,8 +208,9 @@
         "<button class='sqs-block-button-element--small' data-animal='Dog'>dogs</button>";
       filters +=
         "<button class='sqs-block-button-element--small' data-animal='Cat'>cats</button>";
-      filters +=
-        "<button class='sqs-block-button-element--small' data-animal='Other'>other</button>";
+      // "Other" isn't supported right now
+      // filters +=
+      //  "<button class='sqs-block-button-element--small' data-animal='Other'>other</button>";
       filters +=
         "<button class='sqs-block-button-element--small' data-animal='null'>All</button>";
 
