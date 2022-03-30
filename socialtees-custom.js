@@ -178,13 +178,13 @@
   
         if (st.pets[i].type === "Dog") {
           petDOM +=
-            "<a href='/application' title='apply to adopt this pet'>Apply to adopt this pet</a>";
+            "<a href='/application' title='apply to adopt this pet'>Apply to adopt this pet!</a>";
         } else if (st.pets[i].type === "Cat") {
           petDOM +=
-            "<a href='/application-2/' title='apply to adopt this pet'>Apply to adopt this pet</a>";
+            "<a href='/application-2/' title='apply to adopt this pet'>Apply to adopt this pet!</a>";
         } else {
           petDOM +=
-            "<a href='/faqs/' title='Apply to adopt this pet'>apply to adopt this pet</a>";
+            "<a href='/faqs/' title='apply to adopt this pet'>Apply to adopt this pet!</a>";
         }
         petDOM += "</div>";
         petDOM += "</div>";
