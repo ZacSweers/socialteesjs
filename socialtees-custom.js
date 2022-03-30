@@ -24,7 +24,7 @@
       filter: null,
   
       loaderURL:
-        "http://static1.squarespace.com/static/572b597a1bbee0f4e8d01e5e/t/5766ebc23e00be24e54c7b08/1466362818303/spinner.gif",
+        "https://static1.squarespace.com/static/572b597a1bbee0f4e8d01e5e/t/5766ebc23e00be24e54c7b08/1466362818303/spinner.gif",
   
       init: function () {
         st.$win = $(window);
@@ -184,7 +184,7 @@
             "<a href='/application-2/' title='apply to adopt this pet'>Apply to adopt this pet!</a>";
         } else {
           petDOM +=
-            "<a href='/faqs/' title='apply to adopt this pet'>Apply to adopt this pet!</a>";
+            "<a href='/faqs/' title='Apply to adopt this pet'>apply to adopt this pet!</a>";
         }
         petDOM += "</div>";
         petDOM += "</div>";
@@ -204,14 +204,14 @@
       addFilters: function () {
         var filters = "<h3>Filter by:</h3>";
         filters +=
+          "<button class='sqs-block-button-element--small' data-animal='null'>All</button>";
+        filters +=
           "<button class='sqs-block-button-element--small' data-animal='Dog'>dogs</button>";
         filters +=
           "<button class='sqs-block-button-element--small' data-animal='Cat'>cats</button>";
         // "Other" isn't supported right now
         // filters +=
         //  "<button class='sqs-block-button-element--small' data-animal='Other'>other</button>";
-        filters +=
-          "<button class='sqs-block-button-element--small' data-animal='null'>All</button>";
   
         st.$petsFilters.append(filters);
   
