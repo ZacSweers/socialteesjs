@@ -147,15 +147,21 @@
         var size = st.pets[i].size;
         var gender = st.pets[i].gender;
   
+        // NOTE: Normally we'd use https://photos.petfinder.com/ as the prefix, but their cert
+        // is invalid and fails to load at https. So instead, we bypass it and load cloudfront
+        // directly.
+        // https://github.com/petfinder-com/petfinder-js-sdk/issues/22
         imgURL =
           "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/" + st.pets[i].id + "/1/";
         petDOM = "<div class='col sqs-col-4 span-4'>";
         petDOM += "<div class='sqs-block image-block html-block'>";
         petDOM += "<div class='petfinder__img-wrapper'>";
-        petDOM +=
-          "<a href='https://www.petfinder.com/petdetail/" + st.pets[i].id + "'>" +
-          "<img alt='" + st.pets[i].name + "' src='" + imgURL + "' />"
-          "</a>";
+        // TODO this weirdly linkifies all the text below it too wtf
+        // petDOM +=
+        //   "<a href='https://www.petfinder.com/petdetail/" + st.pets[i].id + "'>\n" +
+        //   "<img alt='" + st.pets[i].name + "' src='" + imgURL + "'>\n"
+        //   "</a><br>";
+        petDOM += "<img alt='" + st.pets[i].name + "' src='" + imgURL + "' />"
         petDOM += "</div>";
         petDOM += "<h3>" + st.pets[i].name + "</h3>";
   
@@ -174,17 +180,21 @@
         if (gender !== undefined) {
           petDOM += "<li>" + gender + "</li>";
         }
+        petDOM +=
+        "<li><a href='https://www.petfinder.com/petdetail/" +
+        st.pets[i].id +
+        "' target='_blank'>Full bio on petfinder</a></li>";
         petDOM += "</ul>";
   
         if (st.pets[i].type === "Dog") {
           petDOM +=
-            "<a href='/application' title='apply to adopt this pet'>Apply to adopt this pet!</a>";
+            "<a href='/application' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a>";
         } else if (st.pets[i].type === "Cat") {
           petDOM +=
-            "<a href='/application-2/' title='apply to adopt this pet'>Apply to adopt this pet!</a>";
+            "<a href='/application-2/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a>";
         } else {
           petDOM +=
-            "<a href='/faqs/' title='Apply to adopt this pet'>apply to adopt this pet!</a>";
+            "<a href='/faqs/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a>";
         }
         petDOM += "</div>";
         petDOM += "</div>";
