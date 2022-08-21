@@ -164,37 +164,25 @@
         petDOM += "</div>";
         petDOM += "<h3>" + st.pets[i].name + "</h3>";
 
+        petDOM += "<body>" + st.pets[i].description.split('\n')[0] + "</body>";
         petDOM += "<ul>";
-        if (st.pets[i].breeds.primary) {
-          petDOM += "<li>" + st.pets[i].breeds.primary;
-          if (st.pets[i].breeds.secondary) {
-            petDOM += " / " + st.pets[i].breeds.primary;
-          }
-          petDOM += "</li>";
-        }
-        petDOM += "<li>" + st.pets[i].age + "</li>";
-        if (size !== undefined) {
-          petDOM += "<li>" + size + "</li>";
-        }
-        if (gender !== undefined) {
-          petDOM += "<li>" + gender + "</li>";
-        }
         petDOM +=
         "<li><a href='https://www.petfinder.com/petdetail/" +
         st.pets[i].id +
         "' target='_blank'>Full bio on petfinder</a></li>";
-        petDOM += "</ul>";
 
         if (st.pets[i].type === "Dog") {
           petDOM +=
-            "<a href='/application' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a>";
+            "<li><a href='/application' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a></li>";
         } else if (st.pets[i].type === "Cat") {
           petDOM +=
-            "<a href='/application-2/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a>";
+            "<li><a href='/application-2/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a></li>";
         } else {
           petDOM +=
-            "<a href='/faqs/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a>";
+            "<li><a href='/faqs/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a></li>";
         }
+          
+        petDOM += "</ul>";
         petDOM += "</div>";
         petDOM += "</div>";
 
