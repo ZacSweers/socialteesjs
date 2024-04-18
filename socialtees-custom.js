@@ -78,6 +78,7 @@
             st.addPets();
           })
           .catch((err) => {
+            console.error(err)
             st.$loader.remove();
             st.$petsWrapper.append(st.getErrorDOM());
           });
