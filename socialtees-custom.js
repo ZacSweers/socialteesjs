@@ -45,7 +45,7 @@
       },
 
       checkScroll: function () {
-        var footerHeight = st.$preFooter.outerHeight() + st.$footer.outerHeight();
+        const footerHeight = st.$preFooter.outerHeight() + st.$footer.outerHeight();
 
         if (st.petsVisible >= st.petsToShow || st.isLoading) {
           return false;
@@ -86,7 +86,7 @@
       processPets: function () {
         if (st.pets === null) return;
 
-        var i = 0;
+        let i = 0;
         for (i; i < st.pets.length; i++) {
           if (st.pets[i].type === "Dog") {
             st.dogs.push(st.pets[i]);
@@ -112,9 +112,9 @@
       },
 
       getPetListingsDOM: function () {
-        var petListings;
-        var i = st.totalPets - st.petsVisible - 1;
-        var threshold;
+        let petListings;
+        let i = st.totalPets - st.petsVisible - 1;
+        let threshold;
 
         if (st.filter === null) {
           threshold = i - st.numToLoad < 0 ? -1 : i - st.numToLoad;
@@ -142,10 +142,10 @@
       },
 
       getPetDOM: function (i) {
-        var petDOM;
-        var imgURL;
-        var size = st.pets[i].size;
-        var gender = st.pets[i].gender;
+        let petDOM;
+        let imgURL;
+        const size = st.pets[i].size;
+        const gender = st.pets[i].gender;
 
         // NOTE: Normally we'd use https://photos.petfinder.com/ as the prefix, but their cert
         // is invalid and fails to load at https. So instead, we bypass it and load cloudfront
@@ -190,16 +190,16 @@
       },
 
       setupDOM: function () {
-        var filter =
-          "<div id='js-petfinder__filters' class='sqs-block button-block sqs-block-button'></div>";
-        var content = "<div id='js-petfinder__content'></div>";
+        const filter =
+            "<div id='js-petfinder__filters' class='sqs-block button-block sqs-block-button'></div>";
+        const content = "<div id='js-petfinder__content'></div>";
 
         st.$petsWrapper.append(filter);
         st.$petsWrapper.append(content);
       },
 
       addFilters: function () {
-        var filters = "<h3>Filter by:</h3>";
+        let filters = "<h3>Filter by:</h3>";
         filters +=
           "<button class='sqs-block-button-element--small' data-animal='null'>All</button>";
         filters +=
@@ -219,7 +219,7 @@
         st.filterBtns = st.$petsFilters.children("button");
 
         st.filterBtns.on("click", function (e) {
-          var $target = $(e.target);
+          const $target = $(e.target);
           st.filterBtns.removeClass("active");
 
           st.filter = $target.data("animal");
@@ -249,7 +249,7 @@
       },
 
       getErrorDOM: function () {
-        var msg = "<h1>Looks like there was an error</h1>";
+        let msg = "<h1>Looks like there was an error</h1>";
         msg +=
           "<p>See our adoptable pets <a href='https://www.petfinder.com/pet-search?shelterid=NY835' title='Social tees on Petfinder'>here.</a></p>";
 
@@ -257,7 +257,7 @@
       },
 
       getLoaderDOM: function () {
-        var loader = "<div class='loader__wrapper'>";
+        let loader = "<div class='loader__wrapper'>";
         loader +=
           "<img src='" + st.loaderURL + "' alt='loader' class='loader' />";
         loader += "</div>";
