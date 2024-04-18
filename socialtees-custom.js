@@ -126,6 +126,11 @@
         petListings = "<div class='row sqs-row'>";
 
         for (i; i > threshold; i--) {
+          // Check if the index is out of bounds or the pets array or photos array is empty
+          if (!st.pets[i] || st.pets.length === 0 || !st.pets[i].photos.length) {
+            console.log(`No pets found or no photos available for the given index ${i}.`);
+            continue;
+          }
           if (st.filter === null || st.filter === st.pets[i].type) {
             petListings += st.getPetDOM(i);
           } else if (st.filter === "Other") {
