@@ -145,8 +145,6 @@
       getPetDOM: function (i) {
         let petDOM;
         let imgURL;
-        const size = st.pets[i].size;
-        const gender = st.pets[i].gender;
 
         // NOTE: Normally we'd use https://photos.petfinder.com/ as the prefix, but their cert
         // is invalid and fails to load at https. So instead, we bypass it and load cloudfront
