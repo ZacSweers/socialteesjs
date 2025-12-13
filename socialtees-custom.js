@@ -164,13 +164,8 @@
         imgURL = st.pets[i].photos[0].large;
         petDOM = "<div class='col sqs-col-4 span-4'>";
         petDOM += "<div class='sqs-block image-block html-block'>";
-        petDOM += "<div class='petfinder__img-wrapper'>";
-        // TODO this weirdly linkifies all the text below it too wtf
-        // petDOM +=
-        //   "<a href='https://www.petfinder.com/petdetail/" + st.pets[i].id + "'>\n" +
-        //   "<img alt='" + st.pets[i].name + "' src='" + imgURL + "'>\n"
-        //   "</a><br>";
-        petDOM += "<img alt='" + st.pets[i].name + "' src='" + imgURL + "' style='transition: transform 0.2s ease;' onmouseover=\"this.style.transform='scale(1.03)'\" onmouseout=\"this.style.transform='scale(1)'\" />"
+        petDOM += "<div class='petfinder__img-wrapper' style='aspect-ratio: 4/3; overflow: hidden;'>";
+        petDOM += "<img alt='" + st.pets[i].name + "' src='" + imgURL + "' style='width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s ease;' onmouseover=\"this.style.transform='scale(1.03)'\" onmouseout=\"this.style.transform='scale(1)'\" />"
         petDOM += "</div>";
         petDOM += "<h3>" + st.pets[i].name + "</h3>";
 
