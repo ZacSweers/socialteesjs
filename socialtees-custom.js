@@ -12,6 +12,7 @@
       $petsWrapper: null,
       $petsContent: null,
       $petsFilters: null,
+      $petCount: null,
       $filterBtns: null,
       $loader: null,
 
@@ -101,6 +102,7 @@
 
       addPets: function () {
         st.$petsContent.append(st.getPetListingsDOM());
+        st.updatePetCount();
 
         window.setTimeout(function () {
           if (!st.$petsFilters.hasClass("loaded")) {
@@ -199,10 +201,22 @@
       setupDOM: function () {
         const filter =
             "<div id='js-petfinder__filters' class='sqs-block button-block sqs-block-button'></div>";
+        const petCount = "<p id='js-petfinder__count' style='margin: 1em 0;'></p>";
         const content = "<div id='js-petfinder__content'></div>";
 
         st.$petsWrapper.append(filter);
+        st.$petsWrapper.append(petCount);
         st.$petsWrapper.append(content);
+      },
+
+      updatePetCount: function () {
+        if (!st.$petCount) {
+          st.$petCount = $("#js-petfinder__count");
+        }
+        const filterLabel = st.filter === null ? "pets" :
+          st.filter === "Dog" ? "dogs" :
+          st.filter === "Cat" ? "cats" : "pets";
+        st.$petCount.text("Showing " + st.petsToShow + " " + filterLabel);
       },
 
       addFilters: function () {
