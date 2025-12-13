@@ -101,7 +101,11 @@
       },
 
       addPets: function () {
-        st.$petsContent.append(st.getPetListingsDOM());
+        if (st.petsToShow === 0) {
+          st.$petsContent.append(st.getEmptyDOM());
+        } else {
+          st.$petsContent.append(st.getPetListingsDOM());
+        }
         st.updatePetCount();
 
         window.setTimeout(function () {
@@ -277,6 +281,15 @@
         let msg = "<h2>Unable to load pets right now</h2>";
         msg += "<p>The Petfinder service may be temporarily unavailable.</p>";
         msg += "<p><a href='https://www.petfinder.com/pet-search?shelterid=NY835' title='Social Tees on Petfinder'>View our pets on Petfinder &rarr;</a></p>";
+        return msg;
+      },
+
+      getEmptyDOM: function () {
+        const filterLabel = st.filter === "Dog" ? "dogs" :
+          st.filter === "Cat" ? "cats" : "pets";
+        let msg = "<p style='text-align: center; padding: 2em 0;'>";
+        msg += "No " + filterLabel + " available right now. Check back soon!";
+        msg += "</p>";
         return msg;
       },
 
