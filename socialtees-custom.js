@@ -242,9 +242,9 @@
         if (st.filter === "Dog") {
           st.petsToShow = st.dogs.length;
         } else if (st.filter === "Cat") {
-          st.petsToShow === st.cats.length;
+          st.petsToShow = st.cats.length;
         } else if (st.filter === "Other") {
-          st.petsToShow === st.other.length;
+          st.petsToShow = st.other.length;
         } else {
           st.petsToShow = st.pets.length;
         }
