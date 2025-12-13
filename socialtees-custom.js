@@ -168,9 +168,9 @@
         petDOM += "</div>";
         petDOM += "<h3>" + st.pets[i].name + "</h3>";
 
-        const description = st.pets[i].description
-          ? st.pets[i].description.split('\n', 1)[0]
-          : '';
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = st.pets[i].description || '';
+        const description = tempDiv.textContent.split('\n', 1)[0];
         petDOM += "<p>" + description + "</p>";
         petDOM += "<ul>";
         petDOM +=
