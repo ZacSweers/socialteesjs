@@ -168,7 +168,7 @@
         petDOM += "</div>";
         petDOM += "<h3>" + st.pets[i].name + "</h3>";
 
-        petDOM += "<body>" + st.pets[i].description.split('\n', 1)[0] + "</body>";
+        petDOM += "<p>" + st.pets[i].description.split('\n', 1)[0] + "</p>";
         petDOM += "<ul>";
         petDOM +=
         "<li><a href='https://www.petfinder.com/petdetail/" +
