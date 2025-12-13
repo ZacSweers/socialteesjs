@@ -164,7 +164,7 @@
         //   "<a href='https://www.petfinder.com/petdetail/" + st.pets[i].id + "'>\n" +
         //   "<img alt='" + st.pets[i].name + "' src='" + imgURL + "'>\n"
         //   "</a><br>";
-        petDOM += "<img alt='" + st.pets[i].name + "' src='" + imgURL + "' />"
+        petDOM += "<img alt='" + st.pets[i].name + "' src='" + imgURL + "' style='transition: transform 0.2s ease;' onmouseover=\"this.style.transform='scale(1.03)'\" onmouseout=\"this.style.transform='scale(1)'\" />"
         petDOM += "</div>";
         petDOM += "<h3>" + st.pets[i].name + "</h3>";
 
