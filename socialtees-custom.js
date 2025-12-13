@@ -256,10 +256,9 @@
       },
 
       getErrorDOM: function () {
-        let msg = "<h1>Looks like there was an error</h1>";
-        msg +=
-          "<p>See our adoptable pets <a href='https://www.petfinder.com/pet-search?shelterid=NY835' title='Social tees on Petfinder'>here.</a></p>";
-
+        let msg = "<h2>Unable to load pets right now</h2>";
+        msg += "<p>The Petfinder service may be temporarily unavailable.</p>";
+        msg += "<p><a href='https://www.petfinder.com/pet-search?shelterid=NY835' title='Social Tees on Petfinder'>View our pets on Petfinder &rarr;</a></p>";
         return msg;
       },
 
