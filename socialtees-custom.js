@@ -220,13 +220,14 @@
       },
 
       addFilters: function () {
+        const buttonStyle = "margin: 0 0.5em 0.5em 0; transition: background-color 0.2s ease, border-color 0.2s ease;";
         let filters = "<h3>Filter by:</h3>";
         filters +=
-          "<button class='sqs-block-button-element--small' data-animal='null'>All</button>";
+          "<button class='sqs-block-button-element--small' style='" + buttonStyle + "' data-animal='null'>All</button>";
         filters +=
-          "<button class='sqs-block-button-element--small' data-animal='Dog'>dogs</button>";
+          "<button class='sqs-block-button-element--small' style='" + buttonStyle + "' data-animal='Dog'>dogs</button>";
         filters +=
-          "<button class='sqs-block-button-element--small' data-animal='Cat'>cats</button>";
+          "<button class='sqs-block-button-element--small' style='" + buttonStyle + "' data-animal='Cat'>cats</button>";
         // "Other" isn't supported right now
         // filters +=
         //  "<button class='sqs-block-button-element--small' data-animal='Other'>other</button>";
@@ -238,6 +239,9 @@
 
       bindFilterClicks: function () {
         st.filterBtns = st.$petsFilters.children("button");
+
+        // Set "All" as initially active
+        st.filterBtns.first().addClass("active");
 
         st.filterBtns.on("click", function (e) {
           const $target = $(e.target);
