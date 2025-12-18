@@ -17,12 +17,14 @@
       $loader: null,
 
       isLoading: true,
-      // PetFinder only shows 20 per page and we don't currently support pagination
-      numToLoad: 20,
+      numToLoad: 100,
       totalPets: 0,
       petsVisible: 0,
       petsToShow: 0,
       filter: null,
+
+      // Data URL - loads from GitHub raw content
+      dataURL: "https://raw.githubusercontent.com/ZacSweers/socialteesjs/main/data/pets.json",
 
       loaderURL:
         "https://static1.squarespace.com/static/572b597a1bbee0f4e8d01e5e/t/5766ebc23e00be24e54c7b08/1466362818303/spinner.gif",
@@ -61,15 +63,15 @@
       },
 
       loadPets: function () {
-        const pf = new petfinder.Client({
-          apiKey: "eWWxBarOWYLSKqUEjBKb6B8k04QSaEdJz6WHhSeSQqNj35LC23",
-          secret: "dQp8i1PIMXv49VABfqV8iNc9bwWtq9AEPa8nQZeN",
-        });
-
-        pf.animal
-          .search({ organization: "NY835", limit: 100 })
-          .then((res) => {
-            st.pets = res.data.animals;
+        fetch(st.dataURL)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Failed to fetch pets data");
+            }
+            return response.json();
+          })
+          .then((data) => {
+            st.pets = data.pets;
             st.totalPets = st.petsToShow = st.pets.length;
             st.processPets();
             st.setupDOM();
@@ -79,7 +81,7 @@
             st.addPets();
           })
           .catch((err) => {
-            console.error(err)
+            console.error(err);
             st.$loader.remove();
             st.$petsWrapper.append(st.getErrorDOM());
           });
@@ -137,9 +139,9 @@
         petListings = "<div class='row sqs-row'>";
 
         for (i; i > threshold; i--) {
-          // Check if the index is out of bounds or the pets array or photos array is empty
-          if (!st.pets[i] || st.pets.length === 0 || !st.pets[i].photos.length) {
-            console.log(`No pets found or no photos available for the given index ${i}.`);
+          // Check if the index is out of bounds or pet has no photo
+          if (!st.pets[i] || st.pets.length === 0 || !st.pets[i].photoUrl) {
+            console.log(`No pets found or no photo available for the given index ${i}.`);
             continue;
           }
           if (st.filter === null || st.filter === st.pets[i].type) {
@@ -159,43 +161,39 @@
       },
 
       getPetDOM: function (i) {
+        const pet = st.pets[i];
         let petDOM;
-        let imgURL;
 
-        // NOTE: Normally we'd use https://photos.petfinder.com/ as the prefix, but their cert
-        // is invalid and fails to load at https. So instead, we bypass it and load cloudfront
-        // directly.
-        // https://github.com/petfinder-com/petfinder-js-sdk/issues/22
-        imgURL = st.pets[i].photos[0].large;
         petDOM = "<div class='col sqs-col-4 span-4' style='opacity: 0; transform: translateY(10px); transition: opacity 0.3s ease, transform 0.3s ease;'>";
         petDOM += "<div class='sqs-block image-block html-block'>";
         petDOM += "<div class='petfinder__img-wrapper' style='aspect-ratio: 4/3; overflow: hidden;'>";
-        petDOM += "<img alt='" + st.pets[i].name + "' src='" + imgURL + "' style='width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s ease;' onmouseover=\"this.style.transform='scale(1.03)'\" onmouseout=\"this.style.transform='scale(1)'\" />"
+        petDOM += "<img alt='" + pet.name + "' src='" + pet.photoUrl + "' style='width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s ease;' onmouseover=\"this.style.transform='scale(1.03)'\" onmouseout=\"this.style.transform='scale(1)'\" />";
         petDOM += "</div>";
-        petDOM += "<h3>" + st.pets[i].name + "</h3>";
+        petDOM += "<h3>" + pet.name + "</h3>";
 
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = st.pets[i].description || '';
-        const description = tempDiv.textContent.split('\n', 1)[0];
-        petDOM += "<p>" + description + "</p>";
-        petDOM += "<ul>";
-        petDOM +=
-        "<li><a href='https://www.petfinder.com/petdetail/" +
-        st.pets[i].id +
-        "' target='_blank'>Full bio on petfinder</a></li>";
-
-        if (st.pets[i].type === "Dog") {
-          petDOM +=
-            "<li><a href='/application' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a></li>";
-        } else if (st.pets[i].type === "Cat") {
-          petDOM +=
-            "<li><a href='/application-2/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a></li>";
-        } else {
-          petDOM +=
-            "<li><a href='/faqs/' title='apply to adopt this pet'>Apply to adopt " + st.pets[i].name + "!</a></li>";
+        // Show breed, age, sex info
+        const details = [pet.breed, pet.age, pet.sex].filter(Boolean).join(" · ");
+        if (details) {
+          petDOM += "<p><strong>" + details + "</strong></p>";
         }
-          
-        petDOM += "</ul>";
+
+        // Show short description with link to full bio
+        if (pet.short_description) {
+          petDOM += "<p>" + pet.short_description + " <a href='" + pet.url + "' target='_blank'>Full bio on Adopt-a-Pet</a></p>";
+        } else {
+          petDOM += "<p><a href='" + pet.url + "' target='_blank'>Full bio on Adopt-a-Pet</a></p>";
+        }
+
+        // Apply to adopt link
+        petDOM += "<p style='text-align: center;'>";
+        if (pet.type === "Dog") {
+          petDOM += "<a href='/application' title='apply to adopt this pet'>Apply to adopt " + pet.name + "!</a>";
+        } else if (pet.type === "Cat") {
+          petDOM += "<a href='/application-2/' title='apply to adopt this pet'>Apply to adopt " + pet.name + "!</a>";
+        } else {
+          petDOM += "<a href='/faqs/' title='apply to adopt this pet'>Apply to adopt " + pet.name + "!</a>";
+        }
+        petDOM += "</p>";
         petDOM += "</div>";
         petDOM += "</div>";
 
@@ -232,9 +230,6 @@
           "<button class='sqs-block-button-element--small' style='" + buttonStyle + "' data-animal='Dog'>dogs</button>";
         filters +=
           "<button class='sqs-block-button-element--small' style='" + buttonStyle + "' data-animal='Cat'>cats</button>";
-        // "Other" isn't supported right now
-        // filters +=
-        //  "<button class='sqs-block-button-element--small' data-animal='Other'>other</button>";
 
         st.$petsFilters.append(filters);
 
@@ -279,8 +274,8 @@
 
       getErrorDOM: function () {
         let msg = "<h2>Unable to load pets right now</h2>";
-        msg += "<p>The Petfinder service may be temporarily unavailable.</p>";
-        msg += "<p><a href='https://www.petfinder.com/pet-search?shelterid=NY835' title='Social Tees on Petfinder'>View our pets on Petfinder &rarr;</a></p>";
+        msg += "<p>Please try again later.</p>";
+        msg += "<p><a href='https://www.adoptapet.com/adoption_rescue/83349' title='Social Tees on Adopt-a-Pet'>View our pets on Adopt-a-Pet &rarr;</a></p>";
         return msg;
       },
 

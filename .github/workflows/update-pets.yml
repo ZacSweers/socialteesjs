@@ -1,0 +1,39 @@
+name: Update Pets
+
+on:
+  schedule:
+    # Run every 12 hours (6 AM and 6 PM EST = 11 AM and 11 PM UTC)
+    - cron: '0 11,23 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '21'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Fetch pets from Adoptapet
+        run: ./gradlew run --quiet --args="-o data/pets.json"
+        env:
+          ADOPTAPET_API_KEY: ${{ secrets.ADOPTAPET_API_KEY }}
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/pets.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update pets data"
+            git push
+          fi
