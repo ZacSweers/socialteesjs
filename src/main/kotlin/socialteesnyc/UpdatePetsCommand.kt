@@ -29,13 +29,13 @@ class UpdatePetsCommand : SuspendingCliktCommand() {
   }
 
   private val apiKey by
-    option("--api-key", envvar = "ADOPTAPET_API_KEY", help = "Adoptapet API key").required()
+  option("--api-key", envvar = "ADOPTAPET_API_KEY", help = "Adoptapet API key").required()
 
   private val shelterId by
-    option("--shelter-id", envvar = "SHELTER_ID", help = "Shelter ID").default("83349")
+  option("--shelter-id", envvar = "SHELTER_ID", help = "Shelter ID").default("83349")
 
   private val outputFile by
-    option("-o", "--output", help = "Output JSON file path").path().default(Path.of("data/pets.json"))
+  option("-o", "--output", help = "Output JSON file path").path().default(Path.of("data/pets.json"))
 
   private val json = Json {
     prettyPrint = true
