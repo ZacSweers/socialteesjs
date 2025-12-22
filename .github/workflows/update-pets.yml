@@ -4,6 +4,7 @@ on:
   schedule:
     # Run every 12 hours (6 AM and 6 PM EST = 11 AM and 11 PM UTC)
     - cron: '0 11,23 * * *'
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -32,6 +33,7 @@ jobs:
           ADOPTAPET_API_KEY: ${{ secrets.ADOPTAPET_API_KEY }}
 
       - name: Commit and push if changed
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
