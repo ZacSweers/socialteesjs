@@ -1,4 +1,5 @@
+# Rust build output
+/target/
+
+# IDE
 .idea/
-.gradle/
-build/
-.kotlin/
