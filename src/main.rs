@@ -61,16 +61,32 @@ async fn main() -> Result<()> {
 
     let pets_with_details = join_all(detail_futures).await;
 
-    // Convert to our output format
-    let pets: Vec<Pet> = pets_with_details
+    // Fetch image metadata for all photos of each pet in parallel
+    println!("Fetching image metadata from Cloudinary...");
+    let metadata_futures: Vec<_> = pets_with_details
         .into_iter()
-        .map(|(pet, details)| pet.into_pet(details.as_ref()))
+        .map(|(pet, details)| {
+            let api = &api;
+            async move {
+                let original_urls = pet.get_original_image_urls(details.as_ref());
+                let photos = api.get_all_image_metadata(original_urls).await;
+                (pet, details, photos)
+            }
+        })
+        .collect();
+
+    let pets_with_metadata = join_all(metadata_futures).await;
+
+    // Convert to our output format
+    let pets: Vec<Pet> = pets_with_metadata
+        .into_iter()
+        .map(|(pet, details, photos)| pet.into_pet(details.as_ref(), photos))
         .collect();
 
     // Count pets with photos
     let mut pets_without_photos = Vec::new();
     for pet in &pets {
-        if pet.photo_url.is_none() {
+        if pet.photos.is_empty() {
             pets_without_photos.push(&pet.name);
         }
     }

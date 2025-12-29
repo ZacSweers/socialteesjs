@@ -1,7 +1,11 @@
 use anyhow::Result;
+use futures::future::join_all;
 use reqwest::Client;
 
-use crate::models::{AdoptapetPet, AdoptapetResponse, PetDetails, PetDetailsResponse};
+use crate::models::{
+    build_cloudinary_info_url, build_cloudinary_original_url, AdoptapetPet, AdoptapetResponse,
+    CloudinaryInfoResponse, PetDetails, PetDetailsResponse, PhotoMetadata,
+};
 
 const BASE_URL: &str = "https://api.adoptapet.com/search";
 
@@ -59,5 +63,44 @@ impl AdoptapetApi {
             .ok()?;
 
         response.pet
+    }
+
+    /// Fetch image metadata from Cloudinary using fl_getinfo.
+    /// Returns PhotoMetadata with original dimensions and aspect ratio.
+    pub async fn get_image_metadata(&self, original_url: &str) -> Option<PhotoMetadata> {
+        let info_url = build_cloudinary_info_url(original_url)?;
+        let original_url = build_cloudinary_original_url(original_url)?;
+
+        let response: CloudinaryInfoResponse = self
+            .client
+            .get(&info_url)
+            .send()
+            .await
+            .ok()?
+            .json()
+            .await
+            .ok()?;
+
+        let width = response.input.width;
+        let height = response.input.height;
+        let aspect_ratio = width as f32 / height as f32;
+
+        Some(PhotoMetadata {
+            original_url,
+            width,
+            height,
+            aspect_ratio,
+        })
+    }
+
+    /// Fetch image metadata for multiple URLs in parallel.
+    /// Returns a Vec of PhotoMetadata for images that were successfully fetched.
+    pub async fn get_all_image_metadata(&self, original_urls: Vec<&str>) -> Vec<PhotoMetadata> {
+        let futures: Vec<_> = original_urls
+            .into_iter()
+            .map(|url| self.get_image_metadata(url))
+            .collect();
+
+        join_all(futures).await.into_iter().flatten().collect()
     }
 }

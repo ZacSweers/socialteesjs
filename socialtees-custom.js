@@ -1,3 +1,16 @@
+/**
+ * @api-keys-start
+ * Required pet JSON keys used by this frontend:
+ * - type
+ * - photoUrl
+ * - name
+ * - breed
+ * - age
+ * - sex
+ * - short_description
+ * - url
+ * @api-keys-end
+ */
 !(function () {
     st = {
       $win: null,
