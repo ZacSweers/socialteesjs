@@ -30,6 +30,9 @@ htmlescape = "0.3"
 # Regex for description cleanup
 regex = "1"
 
+# HTML to Markdown conversion
+htmd = "0.1"
+
 # Date/time
 chrono = { version = "0.4", features = ["serde"] }
 
