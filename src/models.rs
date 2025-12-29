@@ -454,4 +454,76 @@ mod tests {
         assert_eq!(capitalize_first(""), "");
         assert_eq!(capitalize_first("PUPPY"), "PUPPY");
     }
+
+    /// Test that the Pet struct serializes with all JSON keys expected by socialtees-custom.js.
+    /// Keys are defined in the JS file between @api-keys-start and @api-keys-end markers.
+    #[test]
+    fn test_pet_json_keys_match_frontend_expectations() {
+        // Read the JS file at compile time and parse the required keys
+        const JS_SOURCE: &str = include_str!("../socialtees-custom.js");
+
+        let start_marker = "@api-keys-start";
+        let end_marker = "@api-keys-end";
+
+        let start_idx = JS_SOURCE
+            .find(start_marker)
+            .expect("Missing @api-keys-start marker in socialtees-custom.js");
+        let end_idx = JS_SOURCE
+            .find(end_marker)
+            .expect("Missing @api-keys-end marker in socialtees-custom.js");
+
+        let keys_section = &JS_SOURCE[start_idx + start_marker.len()..end_idx];
+
+        // Parse keys from lines like "* - keyName"
+        let required_keys: Vec<&str> = keys_section
+            .lines()
+            .filter_map(|line| {
+                let trimmed = line.trim().trim_start_matches('*').trim();
+                if trimmed.starts_with("- ") {
+                    Some(trimmed.trim_start_matches("- ").trim())
+                } else {
+                    None
+                }
+            })
+            .collect();
+
+        assert!(
+            !required_keys.is_empty(),
+            "No API keys found between markers in socialtees-custom.js"
+        );
+
+        // Create a Pet with all fields populated
+        let pet = Pet {
+            id: "123".to_string(),
+            name: "Buddy".to_string(),
+            pet_type: "Dog".to_string(),
+            breed: Some("Labrador".to_string()),
+            age: Some("Adult".to_string()),
+            sex: Some("Male".to_string()),
+            size: Some("Large".to_string()),
+            url: "https://example.com/pet/123".to_string(),
+            photo_url: Some("https://example.com/photo.jpg".to_string()),
+            photos: vec![],
+            description: Some("A friendly dog".to_string()),
+            description_html: Some("<p>A friendly dog</p>".to_string()),
+            description_markdown: Some("A friendly dog".to_string()),
+            short_description: Some("A friendly dog".to_string()),
+            color: Some("Brown".to_string()),
+            attributes: vec![],
+        };
+
+        let json = serde_json::to_value(&pet).expect("Failed to serialize Pet");
+        let obj = json
+            .as_object()
+            .expect("Pet should serialize to JSON object");
+
+        for key in &required_keys {
+            assert!(
+                obj.contains_key(*key),
+                "Missing required JSON key '{}' expected by socialtees-custom.js. \
+                 If you renamed or removed this key, update the @api-keys section in socialtees-custom.js",
+                key
+            );
+        }
+    }
 }

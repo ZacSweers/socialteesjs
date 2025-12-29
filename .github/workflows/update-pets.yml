@@ -27,6 +27,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-cargo-
 
+      - name: Run tests
+        run: cargo test
+
       - name: Fetch pets from Adoptapet
         run: cargo run -- --output data/pets.json
         env:
