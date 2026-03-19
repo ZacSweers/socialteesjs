@@ -1,4 +1,4 @@
-use anyhow::Result;
+use anyhow::{bail, Result};
 use futures::future::join_all;
 use reqwest::Client;
 
@@ -41,6 +41,18 @@ impl AdoptapetApi {
             .await?
             .json()
             .await?;
+
+        if response.status.as_deref() == Some("fail") {
+            if let Some(error) = &response.error {
+                bail!(
+                    "Adoptapet API error (code {}): {} - {}",
+                    error.code.unwrap_or(0),
+                    error.msg.as_deref().unwrap_or("unknown"),
+                    error.details.as_deref().unwrap_or("no details")
+                );
+            }
+            bail!("Adoptapet API returned failure status with no error details");
+        }
 
         Ok(response.pets)
     }
