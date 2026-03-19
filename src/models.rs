@@ -2,9 +2,19 @@ use htmd::HtmlToMarkdown;
 use regex::Regex;
 use serde::{Deserialize, Serialize};
 
+/// Error detail from the Adoptapet API.
+#[derive(Debug, Deserialize)]
+pub struct AdoptapetErrorDetail {
+    pub code: Option<u16>,
+    pub msg: Option<String>,
+    pub details: Option<String>,
+}
+
 /// Response from the Adoptapet pets_at_shelter endpoint.
 #[derive(Debug, Deserialize)]
 pub struct AdoptapetResponse {
+    pub status: Option<String>,
+    pub error: Option<AdoptapetErrorDetail>,
     #[serde(default)]
     pub pets: Vec<AdoptapetPet>,
 }
