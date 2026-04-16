@@ -1360,6 +1360,12 @@
           "aspectRatio": 0.75
         },
         {
+          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1299470699",
+          "width": 750,
+          "height": 1000,
+          "aspectRatio": 0.75
+        },
+        {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1298456319",
           "width": 750,
           "height": 1000,
@@ -3352,5 +3358,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-04-15T23:21:47Z"
+  "updatedAt": "2026-04-16T11:29:21Z"
 }
