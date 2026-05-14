@@ -165,9 +165,10 @@ pub fn extract_high_res_image_url(original_url: Option<&str>) -> Option<String> 
         return Some(url.to_string());
     }
 
-    // Return optimized URL with reasonable size (800x600, 4:3 aspect)
+    // 800x600 (4:3). Crop with g_face when a face is detected, otherwise fall
+    // back to g_auto:classic — empirically frames pets better than plain g_auto.
     Some(format!(
-        "https://media.adoptapet.com/image/upload/c_fill,w_800,h_600,g_auto/f_auto,q_auto/{}",
+        "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/{}",
         image_id
     ))
 }
@@ -448,7 +449,7 @@ mod tests {
         let result = extract_high_res_image_url(Some(url));
         assert_eq!(
             result,
-            Some("https://media.adoptapet.com/image/upload/c_fill,w_800,h_600,g_auto/f_auto,q_auto/1268757503".to_string())
+            Some("https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1268757503".to_string())
         );
     }
 
