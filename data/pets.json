@@ -1010,15 +1010,15 @@
       "photos": [
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1304247350",
-          "width": 761,
+          "width": 750,
           "height": 1000,
-          "aspectRatio": 0.761
+          "aspectRatio": 0.75
         },
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1304247359",
-          "width": 589,
+          "width": 750,
           "height": 1000,
-          "aspectRatio": 0.589
+          "aspectRatio": 0.75
         },
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1310286310",
@@ -1118,9 +1118,9 @@
       "photos": [
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1304247313",
-          "width": 644,
+          "width": 750,
           "height": 1000,
-          "aspectRatio": 0.644
+          "aspectRatio": 0.75
         },
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1310286249",
@@ -2125,5 +2125,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-07T23:29:09Z"
+  "updatedAt": "2026-06-08T12:34:00Z"
 }
