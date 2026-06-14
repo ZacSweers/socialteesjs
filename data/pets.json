@@ -1328,9 +1328,9 @@
       "photos": [
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1305538026",
-          "width": 689,
+          "width": 750,
           "height": 1000,
-          "aspectRatio": 0.689
+          "aspectRatio": 0.75
         },
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1311673943",
@@ -2431,5 +2431,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-06-14T11:44:41Z"
+  "updatedAt": "2026-06-14T23:33:22Z"
 }
