@@ -1,6 +1,35 @@
 {
   "pets": [
     {
+      "id": "49279212",
+      "name": "Lil Bit",
+      "type": "Dog",
+      "breed": "Dachshund / Chihuahua",
+      "age": null,
+      "sex": null,
+      "size": null,
+      "url": "https://www.adoptapet.com/pet/49279212",
+      "photoUrl": null,
+      "description": "PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet, please complete an adoption application at socialteesnyc.org. Because we are a small team and receive hundreds of applications each week, we are unable to respond to every application and every inquiry email, but we do our best. Please have patience! If your application is approved, you will for sure hear from us. If you have questions, please take a look at the Adoption and Fostering FAQs etc. on our website as all common questions are answered there. Thank you for your understanding and flexibility as we work to save these innocent lives!! LEARN MORE ABOUT US: socialteesnyc.org; Instagram via @socialteesnyc; Facebook.com/socialteesanimalrescue",
+      "descriptionHtml": "<p>PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet, please complete an adoption application at socialteesnyc.org. Because we are a small team and receive hundreds of applications each week, we are unable to respond to every application and every inquiry email, but we do our best. Please have patience! If your application is approved, you will for sure hear from us. If you have questions, please take a look at the Adoption and Fostering FAQs etc. on our website as all common questions are answered there. Thank you for your understanding and flexibility as we work to save these innocent lives!! </p>\n\n<p>LEARN MORE ABOUT US: socialteesnyc.org; Instagram via @socialteesnyc; Facebook.com/socialteesanimalrescue</p>",
+      "descriptionMarkdown": "PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet, please complete an adoption application at socialteesnyc.org. Because we are a small team and receive hundreds of applications each week, we are unable to respond to every application and every inquiry email, but we do our best. Please have patience! If your application is approved, you will for sure hear from us. If you have questions, please take a look at the Adoption and Fostering FAQs etc. on our website as all common questions are answered there. Thank you for your understanding and flexibility as we work to save these innocent lives!! \n\nLEARN MORE ABOUT US: socialteesnyc.org; Instagram via @socialteesnyc; Facebook.com/socialteesanimalrescue",
+      "short_description": "PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet...",
+      "attributes": [
+        {
+          "key": "housetrained",
+          "display": "Housetrained"
+        },
+        {
+          "key": "shots_current",
+          "display": "Shots current"
+        },
+        {
+          "key": "spayed_neutered",
+          "display": "Spayed/Neutered"
+        }
+      ]
+    },
+    {
       "id": "49276231",
       "name": "Elroy",
       "type": "Dog",
@@ -1295,5 +1324,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-10T11:15:56Z"
+  "updatedAt": "2026-09-10T23:13:49Z"
 }
