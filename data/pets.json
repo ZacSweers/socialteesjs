@@ -1083,7 +1083,7 @@
       "age": "Adult",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49276231-manhattan-new-york-australian-shepherd-retriever-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/49276231-manhattan-new-york-australian-shepherd-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1334789616",
       "photos": [
         {
@@ -1854,7 +1854,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/48296192-manhattan-new-york-beagle-mix",
+      "url": "https://www.adoptapet.com/pet/48296192-manhattan-new-york-beagle-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1311673949",
       "photos": [
         {
@@ -2110,5 +2110,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-22T11:17:31Z"
+  "updatedAt": "2026-09-22T23:14:58Z"
 }
