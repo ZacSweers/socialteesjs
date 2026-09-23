@@ -514,7 +514,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49289703-manhattan-new-york-terrier-unknown-type-medium-mix",
+      "url": "https://www.adoptapet.com/pet/49289703-manhattan-new-york-terrier-unknown-type-medium-shepherd-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1335092772",
       "photos": [
         {
@@ -1139,7 +1139,7 @@
       "age": "Adult",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49276231-manhattan-new-york-australian-shepherd-mix",
+      "url": "https://www.adoptapet.com/pet/49276231-manhattan-new-york-australian-shepherd-retriever-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1334789616",
       "photos": [
         {
@@ -1207,7 +1207,7 @@
       "age": "Adult",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49276230-manhattan-new-york-blue-heeler-mix",
+      "url": "https://www.adoptapet.com/pet/49276230-manhattan-new-york-blue-heeler-husky-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1334789589",
       "photos": [
         {
@@ -1493,7 +1493,7 @@
       "age": "Adult",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49130263-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49130263-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1331328175",
       "photos": [
         {
@@ -2104,5 +2104,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-23T11:16:39Z"
+  "updatedAt": "2026-09-23T23:14:59Z"
 }
