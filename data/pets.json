@@ -582,7 +582,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Large 61-100 Lbs (28-45 Kg)",
-      "url": "https://www.adoptapet.com/pet/49289702-manhattan-new-york-great-pyrenees-retriever-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/49289702-manhattan-new-york-great-pyrenees-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1335092763",
       "photos": [
         {
@@ -927,7 +927,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Large 61-100 Lbs (28-45 Kg)",
-      "url": "https://www.adoptapet.com/pet/49289694-manhattan-new-york-husky-great-pyrenees-mix",
+      "url": "https://www.adoptapet.com/pet/49289694-manhattan-new-york-husky-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1335092691",
       "photos": [
         {
@@ -1912,7 +1912,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/48276177-manhattan-new-york-sheltie-shetland-sheepdog-mix",
+      "url": "https://www.adoptapet.com/pet/48276177-manhattan-new-york-sheltie-shetland-sheepdog-border-collie-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1311230303",
       "photos": [
         {
@@ -1980,7 +1980,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/47939718-manhattan-cattle-dog-mix",
+      "url": "https://www.adoptapet.com/pet/47939718-manhattan-new-york-cattle-dog-australian-shepherd-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1303753683",
       "photos": [
         {
@@ -2104,5 +2104,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-23T23:14:59Z"
+  "updatedAt": "2026-09-24T11:16:12Z"
 }
