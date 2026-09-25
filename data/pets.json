@@ -1543,6 +1543,18 @@
       "photos": [
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1331328175",
+          "width": 284,
+          "height": 509,
+          "aspectRatio": 0.55795676
+        },
+        {
+          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1339089208",
+          "width": 402,
+          "height": 547,
+          "aspectRatio": 0.73491776
+        },
+        {
+          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1339089214",
           "width": 647,
           "height": 1000,
           "aspectRatio": 0.647
@@ -2081,5 +2093,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-09-25T11:16:46Z"
+  "updatedAt": "2026-09-25T23:15:09Z"
 }
