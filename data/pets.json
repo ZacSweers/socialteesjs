@@ -163,7 +163,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49572831-manhattan-new-york-australian-shepherd-mix",
+      "url": "https://www.adoptapet.com/pet/49572831-manhattan-new-york-australian-shepherd-labrador-retriever-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1342013528",
       "photos": [
         {
@@ -659,7 +659,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49560712-manhattan-new-york-jack-russell-terrier-cattle-dog-mix",
+      "url": "https://www.adoptapet.com/pet/49560712-manhattan-new-york-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1341724191",
       "photos": [
         {
@@ -1213,7 +1213,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49436167-manhattan-new-york-australian-shepherd-mix",
+      "url": "https://www.adoptapet.com/pet/49436167-manhattan-new-york-australian-shepherd-border-collie-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1339024755",
       "photos": [
         {
@@ -2684,5 +2684,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-08T23:16:23Z"
+  "updatedAt": "2026-10-09T11:17:42Z"
 }
