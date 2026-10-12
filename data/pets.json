@@ -43,43 +43,6 @@
       ]
     },
     {
-      "id": "49572834",
-      "name": "Ari",
-      "type": "Dog",
-      "breed": "Goldendoodle / Jack Russell Terrier",
-      "age": null,
-      "sex": "Female",
-      "size": null,
-      "url": "https://www.adoptapet.com/pet/49572834-manhattan-new-york-goldendoodle-jack-russell-terrier-mix",
-      "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1342013573",
-      "photos": [
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1342013573",
-          "width": 638,
-          "height": 1000,
-          "aspectRatio": 0.638
-        }
-      ],
-      "description": "",
-      "descriptionHtml": "",
-      "descriptionMarkdown": "",
-      "short_description": "",
-      "attributes": [
-        {
-          "key": "housetrained",
-          "display": "Housetrained"
-        },
-        {
-          "key": "shots_current",
-          "display": "Shots current"
-        },
-        {
-          "key": "spayed_neutered",
-          "display": "Spayed/Neutered"
-        }
-      ]
-    },
-    {
       "id": "49572833",
       "name": "Rose",
       "type": "Dog",
@@ -2744,5 +2707,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-12T11:19:17Z"
+  "updatedAt": "2026-10-12T23:16:58Z"
 }
