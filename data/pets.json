@@ -1550,7 +1550,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49289703-manhattan-new-york-terrier-unknown-type-medium-mix",
+      "url": "https://www.adoptapet.com/pet/49289703-manhattan-new-york-terrier-unknown-type-medium-shepherd-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1335092772",
       "photos": [
         {
@@ -2683,5 +2683,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-17T11:13:42Z"
+  "updatedAt": "2026-10-17T23:12:22Z"
 }
