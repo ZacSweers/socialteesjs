@@ -1618,7 +1618,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Large 61-100 Lbs (28-45 Kg)",
-      "url": "https://www.adoptapet.com/pet/49289702-manhattan-new-york-great-pyrenees-retriever-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/49289702-manhattan-new-york-great-pyrenees-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1335092763",
       "photos": [
         {
@@ -1904,7 +1904,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49289693-manhattan-new-york-australian-kelpie-australian-shepherd-mix",
+      "url": "https://www.adoptapet.com/pet/49289693-manhattan-new-york-australian-kelpie-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1335092661",
       "photos": [
         {
@@ -2633,5 +2633,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-20T11:16:04Z"
+  "updatedAt": "2026-10-20T23:14:19Z"
 }
