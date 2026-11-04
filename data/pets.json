@@ -1,6 +1,35 @@
 {
   "pets": [
     {
+      "id": "49879211",
+      "name": "Benjamin",
+      "type": "Dog",
+      "breed": "Chihuahua / Jack Russell Terrier",
+      "age": null,
+      "sex": "Male",
+      "size": null,
+      "url": "https://www.adoptapet.com/pet/49879211-manhattan-new-york-chihuahua-mix",
+      "photoUrl": null,
+      "description": "PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet, please complete an adoption application at socialteesnyc.org. Because we are a small team and receive hundreds of applications each week, we are unable to respond to every application and every inquiry email, but we do our best. Please have patience! If your application is approved, you will for sure hear from us. If you have questions, please take a look at the Adoption and Fostering FAQs etc. on our website as all common questions are answered there. Thank you for your understanding and flexibility as we work to save these innocent lives!! LEARN MORE ABOUT US: socialteesnyc.org; Instagram via @socialteesnyc; Facebook.com/socialteesanimalrescue",
+      "descriptionHtml": "<p>PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet, please complete an adoption application at socialteesnyc.org. Because we are a small team and receive hundreds of applications each week, we are unable to respond to every application and every inquiry email, but we do our best. Please have patience! If your application is approved, you will for sure hear from us. If you have questions, please take a look at the Adoption and Fostering FAQs etc. on our website as all common questions are answered there. Thank you for your understanding and flexibility as we work to save these innocent lives!! </p>\n\n<p>LEARN MORE ABOUT US: socialteesnyc.org; Instagram via @socialteesnyc; Facebook.com/socialteesanimalrescue</p>",
+      "descriptionMarkdown": "PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet, please complete an adoption application at socialteesnyc.org. Because we are a small team and receive hundreds of applications each week, we are unable to respond to every application and every inquiry email, but we do our best. Please have patience! If your application is approved, you will for sure hear from us. If you have questions, please take a look at the Adoption and Fostering FAQs etc. on our website as all common questions are answered there. Thank you for your understanding and flexibility as we work to save these innocent lives!! \n\nLEARN MORE ABOUT US: socialteesnyc.org; Instagram via @socialteesnyc; Facebook.com/socialteesanimalrescue",
+      "short_description": "PLEASE NOTE: This animal is not at the Social Tees office — all of our dogs and cats are in foster homes while they wait to find their forever families. :) If you’d like to apply to adopt this pet...",
+      "attributes": [
+        {
+          "key": "housetrained",
+          "display": "Housetrained"
+        },
+        {
+          "key": "shots_current",
+          "display": "Shots current"
+        },
+        {
+          "key": "spayed_neutered",
+          "display": "Spayed/Neutered"
+        }
+      ]
+    },
+    {
       "id": "49866714",
       "name": "Agatha",
       "type": "Dog",
@@ -8,7 +37,7 @@
       "age": "Puppy",
       "sex": null,
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49866714-manhattan-new-york-shepherd-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/49866714-manhattan-new-york-shepherd-unknown-type-labrador-retriever-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954661",
       "photos": [
         {
@@ -58,7 +87,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49866713-manhattan-new-york-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49866713-manhattan-new-york-jack-russell-terrier-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954652",
       "photos": [
         {
@@ -108,7 +137,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49866712-manhattan-new-york-shepherd-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/49866712-manhattan-new-york-shepherd-unknown-type-labradoodle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954634",
       "photos": [
         {
@@ -158,7 +187,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49866711-manhattan-new-york-shepherd-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/49866711-manhattan-new-york-shepherd-unknown-type-labrador-retriever-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954625",
       "photos": [
         {
@@ -500,7 +529,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49857607-manhattan-new-york-beagle-mix",
+      "url": "https://www.adoptapet.com/pet/49857607-manhattan-new-york-beagle-terrier-unknown-type-medium-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348751887",
       "photos": [
         {
@@ -738,7 +767,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49857602-manhattan-new-york-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49857602-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348751845",
       "photos": [
         {
@@ -788,7 +817,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49826121-manhattan-new-york-australian-shepherd-mix",
+      "url": "https://www.adoptapet.com/pet/49826121-manhattan-new-york-australian-shepherd-australian-kelpie-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348062909",
       "photos": [
         {
@@ -1222,7 +1251,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49783289-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49783289-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347023868",
       "photos": [
         {
@@ -1272,7 +1301,7 @@
       "age": "Adult",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49783288-manhattan-new-york-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49783288-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347023859",
       "photos": [
         {
@@ -1490,7 +1519,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49783282-manhattan-new-york-beagle-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49783282-manhattan-new-york-beagle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347023814",
       "photos": [
         {
@@ -1605,68 +1634,6 @@
       "descriptionMarkdown": "Handsome - 2 years & 13lbs, Japanese Chin/Terrier, Neutered  \n\nThis dog is eligible to join our foster-to-adopt program. Please email [fostertoadopt@socialteesnyc.org](mailto:fostertoadopt@socialteesnyc.org) with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a[t socialteesnyc.org](http://socialteesnyc.org)\n\nLevel of dog ownership experience required:  \n\nBEGINNER – “Beginner” doesn’t necessarily mean easy as all dogs will require time, work, and patience, but we predict this dog will be low on the challenge scale because of their breed/age combo. Potentially a good fit for someone who has relevant dog care experience (fostering, dog sitting) and is looking to adopt their first pup. \n\nEnergy level:  \n\nMEDIUM – Needs a daily 60 walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) \n\nOkay in the city?  \n\nWe don’t know yet because this pup is brand new to us. Most adult dogs do well in the city after they’ve had time to adjust to a new environment, but some never adapt and need homes in the burbs.\n\nPotty trained?  \n\nProbably! Adults usually are, but all will have transitional accidents for the first week or so. A consistent walking route and schedule plus finding spots with grass or dirt can help.\n\nSocial with other dogs?  \n\nYes, but we don’t know to what degree yet. Some like to wrestle with every passing pup, others can coexist well but prefer to keep to themselves. We’ll learn more soon.\n\nSocial with cats?  \n\nNot sure yet! Some breed mixes that are generally NOT great matches for homes with cats include large hounds, huskies, and shepherds. \n\nComfortable with children?  (ALWAYS requires adult supervision)  \n\nWe’re not sure yet, but we try to err on the side of caution. Respectful kids ages 8 and up are probably a safe bet. Children must always be monitored and taught to interact with dogs of any age carefully.\n\nMedical status:  \n\nHealthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake\n\nHow did this dog end up with Social Tees?  \n\nMost of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. \n\nPLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses.\n\nThis animal is not at the Social Tees office, all are in foster homes.\n\nLEARN MORE ABOUT US:[socialteesnyc.org](http://socialteesnyc.org) and Instagram @socialteesnyc",
       "short_description": "Handsome - 2 years & 13lbs, Japanese Chin/Terrier, Neutered This dog is eligible to join our foster-to-adopt program.",
       "color": "White - with Tan, Yellow or Fawn",
-      "attributes": [
-        {
-          "key": "good_with_cats",
-          "display": "Good with cats"
-        },
-        {
-          "key": "good_with_dogs",
-          "display": "Good with dogs"
-        },
-        {
-          "key": "good_with_kids",
-          "display": "Good with kids"
-        },
-        {
-          "key": "housetrained",
-          "display": "Housetrained"
-        },
-        {
-          "key": "shots_current",
-          "display": "Shots current"
-        },
-        {
-          "key": "spayed_neutered",
-          "display": "Spayed/Neutered"
-        }
-      ]
-    },
-    {
-      "id": "49783279",
-      "name": "Jessie",
-      "type": "Dog",
-      "breed": "Miniature Pinscher / Beagle",
-      "age": "Young",
-      "sex": "Female",
-      "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49783279-manhattan-new-york-miniature-pinscher-beagle-mix",
-      "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347023787",
-      "photos": [
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347023787",
-          "width": 750,
-          "height": 1000,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347773444",
-          "width": 750,
-          "height": 1000,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347773450",
-          "width": 750,
-          "height": 1000,
-          "aspectRatio": 0.75
-        }
-      ],
-      "description": "Jessie - 1 year & 32lbs, Min Pin Mix, Spayed This dog is eligible to join our foster-to-adopt program. Please email fostertoadopt@socialteesnyc.org with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a t socialteesnyc.org Thier Foster Dad Says: \"Jessie is an incredibly sweet and trusting girl who loves people and affection. She is potty trained, sleeps through the night in her crate with no complaint (door open), & is the perfect city size weighing in at 32lbs. She is polite and eager to please, responding very well to a simple firm “no” as she learns boundaries. She’s a good eater and will gladly “sit” in exchange for pets. Jessie is adjusting remarkably well to city life & is wonderful with other dogs and children. She will need a forever person/family who can help her continue to build confidence (she’s not sure about stairs) & in exchange they’ll receive the goofiest smile and wiggliest butt.\" Level of dog ownership experience required: BEGINNER – “Beginner” doesn’t necessarily mean easy as all dogs will require time, work, and patience, but we predict this dog will be low on the challenge scale because of their breed/age combo. Potentially a good fit for someone who has relevant dog care experience (fostering, dog sitting) and is looking to adopt their first pup. Energy level: MEDIUM – Needs a daily 60 walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) ENERGY LEVEL Medium – Needs a daily 60-90 minute morning walk or window of quick paced exercise in addition to potty break strolls (10-30 min each). Also needs significant opportunities to socialize outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) TOLERANCE TO CITY City pup – Seems unfazed by the sights and sounds, may as well have been born here. POTTY TRAINING Yes – Few or no accidents COMFORT LEVEL WITH STRANGERS Social butterfly – Wants to be friends with everyone who walks by, loves anyone who will stop to say hello. BEHAVIOR WITH CHILDREN (always requires adult supervision) Yes for most ages – very confident, gentle, low energy, tolerant, not mouthy SOCIAL BEHAVIOR WITH OTHER DOGS Yes – Good with most other dogs (sizes, breeds, etc.) as far as we know and enjoys socializing with other canines RESPECTFUL BEHAVIOR WITH OTHER ANIMALS (cats, small pets, etc.) Not sure – Wants to chase squirrels and birds so may not be a good match for a home with cats, rabbits, etc. MOUTHY BEHAVIOR Past this stage– Little to no interest in chewing on stuff or putting things in their mouth that aren’t food. Doesn’t try to chew on hands, feet, etc. during playtime SEPARATION ANXIETY (Please leave your foster dog home alone every day for at least 20 minutes.) Working on it – learning how to settle on her own LEASH MANNERS Old Pro – Doesn’t pull hard or need much direction. CUDDLE BUG LEVEL High – Wants to be in your lap pretty much all the time JUMPING ON PEOPLE TO SAY HELLO Listens to correction – Only jumps on people they know when really excited, stops with correction. CRATE TRAINING Working on it – We set one up and leave the door open but rarely close it because the dog freaks out Medical status: Healthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake How did this dog end up with Social Tees? Most of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. PLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses. This animal is not at the Social Tees office, all are in foster homes. LEARN MORE ABOUT US: socialteesnyc.org and Instagram @socialteesnyc",
-      "descriptionHtml": "<p>Jessie - 1 year &amp; 32lbs, Min Pin Mix, Spayed </p>\n\n<p>This dog is eligible to join our foster-to-adopt program. Please email <a href=\"mailto:fostertoadopt@socialteesnyc.org\">fostertoadopt@socialteesnyc.org</a> with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a<a href=\"http://socialteesnyc.org\">t socialteesnyc.org</a></p>\n\n<p><strong>Thier Foster Dad Says:</strong> \"Jessie is an incredibly sweet and trusting girl who loves people and affection. She is potty trained, sleeps through the night in her crate with no complaint (door open), &amp; is the perfect city size weighing in at 32lbs. She is polite and eager to please, responding very well to a simple firm “no” as she learns boundaries. She’s a good eater and will gladly “sit” in exchange for pets. Jessie is adjusting remarkably well to city life &amp; is wonderful with other dogs and children. She will need a forever person/family who can help her continue to build confidence (she’s not sure about stairs) &amp; in exchange they’ll receive the goofiest smile and wiggliest butt.\"</p>\n\n<p>Level of dog ownership experience required:<br>BEGINNER – “Beginner” doesn’t necessarily mean easy as all dogs will require time, work, and patience, but we predict this dog will be low on the challenge scale because of their breed/age combo. Potentially a good fit for someone who has relevant dog care experience (fostering, dog sitting) and is looking to adopt their first pup. </p>\n\n<p>Energy level:<br>MEDIUM – Needs a daily 60 walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) </p>\n\n<p><strong>ENERGY LEVEL</strong><br>Medium <strong>– </strong>Needs a daily 60-90 minute morning walk or window of quick paced exercise in addition to potty break strolls (10-30 min each). Also needs significant opportunities to socialize outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.)<br><br><strong>TOLERANCE TO CITY</strong><br>City pup – Seems unfazed by the sights and sounds, may as well have been born here.<br><br><strong>POTTY TRAINING</strong><br>Yes – Few or no accidents<br><br><strong>COMFORT LEVEL WITH STRANGERS </strong><br>Social butterfly – Wants to be friends with everyone who walks by, loves anyone who will stop to say hello.<br><br><strong>BEHAVIOR WITH CHILDREN (always requires adult supervision) </strong><br>Yes for most ages – very confident, gentle, low energy, tolerant, not mouthy<br><br><strong>SOCIAL BEHAVIOR WITH OTHER DOGS</strong><br>Yes – Good with most other dogs (sizes, breeds, etc.) as far as we know and enjoys socializing with other canines<br><br><strong>RESPECTFUL BEHAVIOR WITH OTHER ANIMALS (cats, small pets, etc.) </strong><br>Not sure – Wants to chase squirrels and birds so may not be a good match for a home with cats, rabbits, etc.<br><br><strong>MOUTHY BEHAVIOR </strong><br>Past this stage– Little to no interest in chewing on stuff or putting things in their mouth that aren’t food. Doesn’t try to chew on hands, feet, etc. during playtime<br><br><strong>SEPARATION ANXIETY </strong>(Please leave your foster dog home alone every day for at least 20 minutes.)<br>Working on it<strong> </strong>– learning how to settle on her own <br><br><strong>LEASH MANNERS </strong><br>Old Pro – Doesn’t pull hard or need much direction.<br><br><strong>CUDDLE BUG LEVEL</strong><br>High – Wants to be in your lap pretty much all the time<br><br><strong>JUMPING ON PEOPLE TO SAY HELLO</strong><br>Listens to correction – Only jumps on people they know when really excited, stops with correction.<br><br><strong>CRATE TRAINING</strong><br>Working on it – We set one up and leave the door open but rarely close it because the dog freaks out<br><br>Medical status:<br>Healthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake</p>\n\n<p>How did this dog end up with Social Tees?<br>Most of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. </p>\n\n<p>PLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses.</p>\n\n<p>This animal is not at the Social Tees office, all are in foster homes.</p>\n\n<p>LEARN MORE ABOUT US:<a href=\"http://socialteesnyc.org\"> socialteesnyc.org</a> and Instagram @socialteesnyc</p>",
-      "descriptionMarkdown": "Jessie - 1 year & 32lbs, Min Pin Mix, Spayed \n\nThis dog is eligible to join our foster-to-adopt program. Please email [fostertoadopt@socialteesnyc.org](mailto:fostertoadopt@socialteesnyc.org) with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a[t socialteesnyc.org](http://socialteesnyc.org)\n\n**Thier Foster Dad Says:** \"Jessie is an incredibly sweet and trusting girl who loves people and affection. She is potty trained, sleeps through the night in her crate with no complaint (door open), & is the perfect city size weighing in at 32lbs. She is polite and eager to please, responding very well to a simple firm “no” as she learns boundaries. She’s a good eater and will gladly “sit” in exchange for pets. Jessie is adjusting remarkably well to city life & is wonderful with other dogs and children. She will need a forever person/family who can help her continue to build confidence (she’s not sure about stairs) & in exchange they’ll receive the goofiest smile and wiggliest butt.\"\n\nLevel of dog ownership experience required:  \n\nBEGINNER – “Beginner” doesn’t necessarily mean easy as all dogs will require time, work, and patience, but we predict this dog will be low on the challenge scale because of their breed/age combo. Potentially a good fit for someone who has relevant dog care experience (fostering, dog sitting) and is looking to adopt their first pup. \n\nEnergy level:  \n\nMEDIUM – Needs a daily 60 walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) \n\n**ENERGY LEVEL**  \n\nMedium **–** Needs a daily 60-90 minute morning walk or window of quick paced exercise in addition to potty break strolls (10-30 min each). Also needs significant opportunities to socialize outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.)  \n\n  \n\n**TOLERANCE TO CITY**  \n\nCity pup – Seems unfazed by the sights and sounds, may as well have been born here.  \n\n  \n\n**POTTY TRAINING**  \n\nYes – Few or no accidents  \n\n  \n\n**COMFORT LEVEL WITH STRANGERS**  \n\nSocial butterfly – Wants to be friends with everyone who walks by, loves anyone who will stop to say hello.  \n\n  \n\n**BEHAVIOR WITH CHILDREN (always requires adult supervision)**  \n\nYes for most ages – very confident, gentle, low energy, tolerant, not mouthy  \n\n  \n\n**SOCIAL BEHAVIOR WITH OTHER DOGS**  \n\nYes – Good with most other dogs (sizes, breeds, etc.) as far as we know and enjoys socializing with other canines  \n\n  \n\n**RESPECTFUL BEHAVIOR WITH OTHER ANIMALS (cats, small pets, etc.)**  \n\nNot sure – Wants to chase squirrels and birds so may not be a good match for a home with cats, rabbits, etc.  \n\n  \n\n**MOUTHY BEHAVIOR**  \n\nPast this stage– Little to no interest in chewing on stuff or putting things in their mouth that aren’t food. Doesn’t try to chew on hands, feet, etc. during playtime  \n\n  \n\n**SEPARATION ANXIETY** (Please leave your foster dog home alone every day for at least 20 minutes.)  \n\nWorking on it– learning how to settle on her own   \n\n  \n\n**LEASH MANNERS**  \n\nOld Pro – Doesn’t pull hard or need much direction.  \n\n  \n\n**CUDDLE BUG LEVEL**  \n\nHigh – Wants to be in your lap pretty much all the time  \n\n  \n\n**JUMPING ON PEOPLE TO SAY HELLO**  \n\nListens to correction – Only jumps on people they know when really excited, stops with correction.  \n\n  \n\n**CRATE TRAINING**  \n\nWorking on it – We set one up and leave the door open but rarely close it because the dog freaks out  \n\n  \n\nMedical status:  \n\nHealthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake\n\nHow did this dog end up with Social Tees?  \n\nMost of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. \n\nPLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses.\n\nThis animal is not at the Social Tees office, all are in foster homes.\n\nLEARN MORE ABOUT US:[socialteesnyc.org](http://socialteesnyc.org) and Instagram @socialteesnyc",
-      "short_description": "Jessie - 1 year & 32lbs, Min Pin Mix, Spayed This dog is eligible to join our foster-to-adopt program.",
-      "color": "Black - with Tan, Yellow or Fawn",
       "attributes": [
         {
           "key": "good_with_cats",
@@ -2206,7 +2173,7 @@
       "age": "Senior",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49560718-manhattan-new-york-chihuahua-dachshund-mix",
+      "url": "https://www.adoptapet.com/pet/49560718-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1341724263",
       "photos": [
         {
@@ -2342,7 +2309,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49560712-manhattan-new-york-jack-russell-terrier-cattle-dog-mix",
+      "url": "https://www.adoptapet.com/pet/49560712-manhattan-new-york-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1341724191",
       "photos": [
         {
@@ -2406,7 +2373,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49530590-manhattan-new-york-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49530590-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1341089373",
       "photos": [
         {
@@ -2524,7 +2491,7 @@
       "age": "Adult",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49436168-manhattan-new-york-english-pointer-mix",
+      "url": "https://www.adoptapet.com/pet/49436168-manhattan-new-york-english-pointer-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1339024782",
       "photos": [
         {
@@ -2876,7 +2843,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49289703-manhattan-new-york-terrier-unknown-type-medium-mix",
+      "url": "https://www.adoptapet.com/pet/49289703-manhattan-new-york-terrier-unknown-type-medium-shepherd-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1335092772",
       "photos": [
         {
@@ -3044,7 +3011,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49231155-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49231155-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1333731062",
       "photos": [
         {
@@ -3112,7 +3079,7 @@
       "age": "Adult",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49130263-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49130263-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1331328175",
       "photos": [
         {
@@ -3423,7 +3390,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/48296193-manhattan-new-york-labrador-retriever-border-collie-mix",
+      "url": "https://www.adoptapet.com/pet/48296193-manhattan-new-york-labrador-retriever-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1311673976",
       "photos": [
         {
@@ -3612,7 +3579,7 @@
       "age": "Senior",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/45966336-manhattan-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/45966336-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1257036548",
       "photos": [
         {
@@ -3673,5 +3640,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-03T23:08:45Z"
+  "updatedAt": "2026-11-04T23:09:30Z"
 }
