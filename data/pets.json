@@ -522,7 +522,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49857607-manhattan-new-york-beagle-terrier-unknown-type-medium-mix",
+      "url": "https://www.adoptapet.com/pet/49857607-manhattan-new-york-beagle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348751887",
       "photos": [
         {
@@ -1344,7 +1344,7 @@
       "age": "Adult",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49783278-manhattan-new-york-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49783278-manhattan-new-york-chihuahua-dachshund-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347023778",
       "photos": [
         {
@@ -2042,7 +2042,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49530589-manhattan-new-york-hound-unknown-type-labrador-retriever-mix",
+      "url": "https://www.adoptapet.com/pet/49530589-manhattan-new-york-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1341089364",
       "photos": [
         {
@@ -2524,7 +2524,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49231155-manhattan-new-york-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49231155-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1333731062",
       "photos": [
         {
@@ -2660,7 +2660,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49042821-manhattan-new-york-hound-unknown-type-labrador-retriever-mix",
+      "url": "https://www.adoptapet.com/pet/49042821-manhattan-new-york-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1329301091",
       "photos": [
         {
@@ -3092,5 +3092,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-12T11:09:33Z"
+  "updatedAt": "2026-11-12T23:08:29Z"
 }
