@@ -8,7 +8,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/50002781-manhattan-new-york-terrier-unknown-type-medium-mix",
+      "url": "https://www.adoptapet.com/pet/50002781-manhattan-new-york-terrier-unknown-type-medium-cattle-dog-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351820926",
       "photos": [
         {
@@ -72,7 +72,7 @@
       "age": "Senior",
       "sex": "Male",
       "size": "Large 61-100 Lbs (28-45 Kg)",
-      "url": "https://www.adoptapet.com/pet/50002780-manhattan-new-york-australian-shepherd-mix",
+      "url": "https://www.adoptapet.com/pet/50002780-manhattan-new-york-australian-shepherd-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351820816",
       "photos": [
         {
@@ -124,7 +124,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49988499-manhattan-new-york-beagle-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49988499-manhattan-new-york-beagle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351559049",
       "photos": [
         {
@@ -260,7 +260,7 @@
       "age": "Adult",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49988497-manhattan-new-york-chihuahua-dachshund-mix",
+      "url": "https://www.adoptapet.com/pet/49988497-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351559001",
       "photos": [
         {
@@ -390,7 +390,7 @@
       "age": "Senior",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49988495-manhattan-new-york-chihuahua-dachshund-mix",
+      "url": "https://www.adoptapet.com/pet/49988495-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351558947",
       "photos": [
         {
@@ -694,7 +694,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49866712-manhattan-new-york-shepherd-unknown-type-labradoodle-mix",
+      "url": "https://www.adoptapet.com/pet/49866712-manhattan-new-york-shepherd-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954634",
       "photos": [
         {
@@ -744,7 +744,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49866711-manhattan-new-york-shepherd-unknown-type-labrador-retriever-mix",
+      "url": "https://www.adoptapet.com/pet/49866711-manhattan-new-york-shepherd-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954625",
       "photos": [
         {
@@ -1201,74 +1201,6 @@
       ]
     },
     {
-      "id": "49826121",
-      "name": "Starfruit",
-      "type": "Dog",
-      "breed": "Australian Shepherd / Australian Kelpie",
-      "age": "Young",
-      "sex": "Female",
-      "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49826121-manhattan-new-york-australian-shepherd-australian-kelpie-mix",
-      "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348062909",
-      "photos": [
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1348062909",
-          "width": 750,
-          "height": 1000,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1348062918",
-          "width": 750,
-          "height": 1000,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1348062924",
-          "width": 750,
-          "height": 1000,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1348062930",
-          "width": 750,
-          "height": 1000,
-          "aspectRatio": 0.75
-        }
-      ],
-      "description": "Starfruit - 1 year, 23lbs, Kelpie/Aussie Mix, Spayed This dog is eligible to join our foster-to-adopt program. Please email fostertoadopt@socialteesnyc.org with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a t socialteesnyc.org Our Team Says: \"Starfruit will do best in a home outside of the city. She's not cut out for this city thing. She's a wonderful dog - very sweet, fun and but her nervous system can't handle it here. If you live out of the city - this girl is a great fit for you. Starfuit daydreams about having a yard to call her own and a calm trail to walk.\" Thier Foster Parent Says: \"Starfruit is a total love bug. She takes a minute to warm up to new people, but once she knows you, she'll be all over you!! Her favorite place is right next to me on the couch, and she'll roll over for belly rubs any chance she gets. Her favorite hobby is destroying her Lambchop toy, so just keep an eye out to make sure she doesn't swallow any squeakers or plastic pieces. She gets the zoomies three or four times a day, and they will make you fall in love with her! Inside the home she's a dream: reliably potty trained, comfortable in her crate, fine being left alone, and she gets along well with other dogs. City noise and activity startle her, which makes her anxious, so she prefers to keep her outdoor time short. She does much better in open, grassy spaces away from the hustle and bustle, and I think she'd truly blossom in a quieter home where she can relax.\" Level of dog ownership experience required: INTERMEDIATE – This dog will need significant structure and plenty of daily exercise, training, and mental stimulation – 90 consecutive minutes of movement in the morning plus potty break walks and brain games throughout the day. The adopter must have relevant primary care experience with a similar breed, temperament, and/or energy level. (Primary care experience includes ownership, fostering, or dog sitting as an adult, not a dog you grew up with.) Energy Level: MEDIUM – Needs a daily 60-90 minute walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) POTTY TRAINING: Yes, few or no accidents COMFORT LEVEL WITH STRANGERS: Wallflower - shy with strangers, takes a second to warm up to new people. BEHAVIOR WITH CHILDREN: Okay for a home with kids aged 12 and up SOCIAL BEHAVIOR WITH OTHER DOGS: Mostly. She tends to be neutral toward or ignore most dogs on the street, but gets curious She's still a little territorial. It's mostly around toys, and she can be a bit protective of me when I'm on the couch. She does respond well to correction, though it's definitely not mastered yet. That said, she's come a long way living with Scout. She's learned to play much better and is way more confident approaching dogs on the street. I think she'd do well with another dog as long as her new family keeps an eye on toys and furniture at first and stays consistent with correction. Probably best as a SOLO dog household but having a sibling not out of the question. BEHAVIOR WITH OTHER ANIMALS: Not sure MOUTHY BEHAVIOR: Past this stage with furniture and belongings. She does destroy her toys thoroughly, so she needs supervision to keep her from eating plastic parts or squeakers. SEPARATION ANXIETY: Past this stage LEASH MANNERS: Getting the hang of it CUDDLE BUG LEVEL: High JUMPING ON PEOPLE: Listens to correction. She never jumps on strangers, but she does jump on the people she loves when she's excited, and she responds to \"Gentle.\" CRATE TRAINING: Yep/mostly Medical status: Healthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake How did this dog end up with Social Tees? Most of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. PLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses. This animal is not at the Social Tees office, all are in foster homes. LEARN MORE ABOUT US: socialteesnyc.org and Instagram @socialteesnyc",
-      "descriptionHtml": "<p>Starfruit - 1 year, 23lbs, Kelpie/Aussie Mix, Spayed </p>\n\n<p>This dog is eligible to join our foster-to-adopt program. Please email <a href=\"mailto:fostertoadopt@socialteesnyc.org\">fostertoadopt@socialteesnyc.org</a> with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a<a href=\"http://socialteesnyc.org/\">t socialteesnyc.org</a></p>\n\n<p><strong>Our Team Says: </strong>\"Starfruit will do best in a home outside of the city. She's not cut out for this city thing. She's a wonderful dog - very sweet, fun and but her nervous system can't handle it here. If you live out of the city - this girl is a great fit for you. Starfuit daydreams about having a yard to call her own and a calm trail to walk.\" </p>\n\n<p><strong>Thier Foster Parent Says: </strong>\"Starfruit is a total love bug. She takes a minute to warm up to new people, but once she knows you, she'll be all over you!! Her favorite place is right next to me on the couch, and she'll roll over for belly rubs any chance she gets. Her favorite hobby is destroying her Lambchop toy, so just keep an eye out to make sure she doesn't swallow any squeakers or plastic pieces. She gets the zoomies three or four times a day, and they will make you fall in love with her! Inside the home she's a dream: reliably potty trained, comfortable in her crate, fine being left alone, and she gets along well with other dogs. City noise and activity startle her, which makes her anxious, so she prefers to keep her outdoor time short. She does much better in open, grassy spaces away from the hustle and bustle, and I think she'd truly blossom in a quieter home where she can relax.\"</p>\n\n<p><strong>Level of dog ownership experience required:</strong><br>INTERMEDIATE – This dog will need significant structure and plenty of daily exercise, training, and mental stimulation – 90 consecutive minutes of movement in the morning plus potty break walks and brain games throughout the day. The adopter must have relevant primary care experience with a similar breed, temperament, and/or energy level. (Primary care experience includes ownership, fostering, or dog sitting as an adult, not a dog you grew up with.)</p>\n\n<p><strong>Energy Level:</strong><br>MEDIUM – Needs a daily 60-90 minute walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) </p>\n\n<p><strong>POTTY TRAINING:</strong><br>Yes, few or no accidents</p>\n\n<p><strong>COMFORT LEVEL WITH STRANGERS: </strong><br>Wallflower - shy with strangers, takes a second to warm up to new people. </p>\n\n<p><strong>BEHAVIOR WITH CHILDREN: </strong><br>Okay for a home with kids aged 12 and up <br><br><strong>SOCIAL BEHAVIOR WITH OTHER DOGS:</strong><br>Mostly. She tends to be neutral toward or ignore most dogs on the street, but gets curious She's still a little territorial. It's mostly around toys, and she can be a bit protective of me when I'm on the couch. She does respond well to correction, though it's definitely not mastered yet. That said, she's come a long way living with Scout. She's learned to play much better and is way more confident approaching dogs on the street. I think she'd do well with another dog as long as her new family keeps an eye on toys and furniture at first and stays consistent with correction. Probably best as a SOLO dog household but having a sibling not out of the question.<br><br><strong>BEHAVIOR WITH OTHER ANIMALS:</strong><br>Not sure<br><br><strong>MOUTHY BEHAVIOR:</strong><br>Past this stage with furniture and belongings. She does destroy her toys thoroughly, so she needs supervision to keep her from eating plastic parts or squeakers.<br><br><strong>SEPARATION ANXIETY:</strong><br>Past this stage<br><br><strong>LEASH MANNERS:</strong><br>Getting the hang of it<br><br><strong>CUDDLE BUG LEVEL:</strong><br>High<br><br><strong>JUMPING ON PEOPLE:</strong><br>Listens to correction. She never jumps on strangers, but she does jump on the people she loves when she's excited, and she responds to \"Gentle.\"<br><br><strong>CRATE TRAINING:</strong><br>Yep/mostly</p>\n\n<p><strong>Medical status:</strong><br>Healthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake</p>\n\n<p><strong>How did this dog end up with Social Tees?</strong><br>Most of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. </p>\n\n<p>PLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses.</p>\n\n<p>This animal is not at the Social Tees office, all are in foster homes.</p>\n\n<p>LEARN MORE ABOUT US:<a href=\"http://socialteesnyc.org/\"> socialteesnyc.org</a> and Instagram @socialteesnyc</p>",
-      "descriptionMarkdown": "Starfruit - 1 year, 23lbs, Kelpie/Aussie Mix, Spayed \n\nThis dog is eligible to join our foster-to-adopt program. Please email [fostertoadopt@socialteesnyc.org](mailto:fostertoadopt@socialteesnyc.org) with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a[t socialteesnyc.org](http://socialteesnyc.org/)\n\n**Our Team Says:** \"Starfruit will do best in a home outside of the city. She's not cut out for this city thing. She's a wonderful dog - very sweet, fun and but her nervous system can't handle it here. If you live out of the city - this girl is a great fit for you. Starfuit daydreams about having a yard to call her own and a calm trail to walk.\" \n\n**Thier Foster Parent Says:** \"Starfruit is a total love bug. She takes a minute to warm up to new people, but once she knows you, she'll be all over you!! Her favorite place is right next to me on the couch, and she'll roll over for belly rubs any chance she gets. Her favorite hobby is destroying her Lambchop toy, so just keep an eye out to make sure she doesn't swallow any squeakers or plastic pieces. She gets the zoomies three or four times a day, and they will make you fall in love with her! Inside the home she's a dream: reliably potty trained, comfortable in her crate, fine being left alone, and she gets along well with other dogs. City noise and activity startle her, which makes her anxious, so she prefers to keep her outdoor time short. She does much better in open, grassy spaces away from the hustle and bustle, and I think she'd truly blossom in a quieter home where she can relax.\"\n\n**Level of dog ownership experience required:**  \n\nINTERMEDIATE – This dog will need significant structure and plenty of daily exercise, training, and mental stimulation – 90 consecutive minutes of movement in the morning plus potty break walks and brain games throughout the day. The adopter must have relevant primary care experience with a similar breed, temperament, and/or energy level. (Primary care experience includes ownership, fostering, or dog sitting as an adult, not a dog you grew up with.)\n\n**Energy Level:**  \n\nMEDIUM – Needs a daily 60-90 minute walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) \n\n**POTTY TRAINING:**  \n\nYes, few or no accidents\n\n**COMFORT LEVEL WITH STRANGERS:**  \n\nWallflower - shy with strangers, takes a second to warm up to new people. \n\n**BEHAVIOR WITH CHILDREN:**  \n\nOkay for a home with kids aged 12 and up   \n\n  \n\n**SOCIAL BEHAVIOR WITH OTHER DOGS:**  \n\nMostly. She tends to be neutral toward or ignore most dogs on the street, but gets curious She's still a little territorial. It's mostly around toys, and she can be a bit protective of me when I'm on the couch. She does respond well to correction, though it's definitely not mastered yet. That said, she's come a long way living with Scout. She's learned to play much better and is way more confident approaching dogs on the street. I think she'd do well with another dog as long as her new family keeps an eye on toys and furniture at first and stays consistent with correction. Probably best as a SOLO dog household but having a sibling not out of the question.  \n\n  \n\n**BEHAVIOR WITH OTHER ANIMALS:**  \n\nNot sure  \n\n  \n\n**MOUTHY BEHAVIOR:**  \n\nPast this stage with furniture and belongings. She does destroy her toys thoroughly, so she needs supervision to keep her from eating plastic parts or squeakers.  \n\n  \n\n**SEPARATION ANXIETY:**  \n\nPast this stage  \n\n  \n\n**LEASH MANNERS:**  \n\nGetting the hang of it  \n\n  \n\n**CUDDLE BUG LEVEL:**  \n\nHigh  \n\n  \n\n**JUMPING ON PEOPLE:**  \n\nListens to correction. She never jumps on strangers, but she does jump on the people she loves when she's excited, and she responds to \"Gentle.\"  \n\n  \n\n**CRATE TRAINING:**  \n\nYep/mostly\n\n**Medical status:**  \n\nHealthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake\n\n**How did this dog end up with Social Tees?**  \n\nMost of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. \n\nPLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses.\n\nThis animal is not at the Social Tees office, all are in foster homes.\n\nLEARN MORE ABOUT US:[socialteesnyc.org](http://socialteesnyc.org/) and Instagram @socialteesnyc",
-      "short_description": "Starfruit - 1 year, 23lbs, Kelpie/Aussie Mix, Spayed This dog is eligible to join our foster-to-adopt program.",
-      "color": "Red/Golden/Orange/Chestnut - with White",
-      "attributes": [
-        {
-          "key": "good_with_cats",
-          "display": "Good with cats"
-        },
-        {
-          "key": "good_with_dogs",
-          "display": "Good with dogs"
-        },
-        {
-          "key": "good_with_kids",
-          "display": "Good with kids"
-        },
-        {
-          "key": "housetrained",
-          "display": "Housetrained"
-        },
-        {
-          "key": "shots_current",
-          "display": "Shots current"
-        },
-        {
-          "key": "spayed_neutered",
-          "display": "Spayed/Neutered"
-        }
-      ]
-    },
-    {
       "id": "49816989",
       "name": "Becky",
       "type": "Dog",
@@ -1439,74 +1371,6 @@
       "descriptionMarkdown": "Butternut - 8 months & 34lbs, Terrier Mix, Spayed   \n\nExpected full grown size around 36lbs \n\nThis puppy is eligible to join our foster-to-adopt program. Please email [fostertoadopt@socialteesnyc.org](mailto:fostertoadopt@socialteesnyc.org) with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a[t socialteesnyc.org](http://socialteesnyc.org)\n\n**Our Team Says: \"**Butternut is a wonderful dog. She is doing okay in the city. But she has a funny habit of only wanting to use the bathroom off leash in a private area. She would be happiest in a home that has a yard. Her current foster parent has a yard and has no problems with her regarding to potty stuff.\"\n\n**Thier Foster Parent Says:** \"Butternut is an athletic sweetheart. She loves to jump, play tug-o-war, and play catch. She is warming to the city, the sounds bother her less, she’s intrigued by the sights and wants to explore however, still only does her business in the privacy of her own backyard-she’s a lady. We’ve ditched the bowl and use a puzzle ball for breakfast and dinner. It’s especially good first thing in the morning after her morning potty. She's still learning how to be fully comfortable home alone.\"\n\nLevel of dog ownership experience required:  \n\nINTERMEDIATE – As an adult, this dog will need significant structure and plenty of daily exercise, training, and mental stimulation – 90 consecutive minutes of movement in the morning plus potty break walks and brain games throughout the day. The adopter must have relevant primary care experience with a similar breed, temperament, and/or energy level. (Primary care experience includes ownership, fostering, or dog sitting as an adult, not a dog you grew up with.) Relevant puppy care experience is a huge plus, but bare minimum the adopter must have TONS of time and patience. Raising a puppy can be a lot of fun, but it’s also  tremendous work. Puppies’ personalities and exercise/stimulation requirements change dramatically between now and when they’re a year old as their bodies and brains develop, so an active lifestyle and the ability to adapt to a pup’s evolving needs are a must. We strongly urge professional dog training with a rewards based trainer from the get go. Adults only or kids ages 8 and up – all puppies go through a mouthy, rambunctious phase and often accidentally hurt children when playing. PLEASE DO YOUR OWN BREED RESEARCH to make sure you have a better understanding of the kind of temperament and exercise requirements this dog may have as an adult.\n\nEnergy level:  \n\nMEDIUM – Very young puppies sleep and nap a lot, but their energy level skyrockets when they become teens (4 months to around a year). As an adult, this dog will need significant structure and plenty of daily exercise, training, and mental stimulation – 90 consecutive minutes of movement in the morning plus potty break walks and brain games throughout the day at a minimum. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) \n\n**TOLERANCE TO CITY**  \n\nAdjusting to the city – Spooked easily by loud noises and bustling areas but walks pretty well in quiet areas and probably just needs more time to adjust (may be a puppy or a brand new rescue). Would prefer a home in a calmer part of the city or the suburbs.  \n\n  \n\n**POTTY TRAINING**  \n\nYes - few or no accidents. - Only uses backyard.  \n\n  \n\n**COMFORT LEVEL WITH STRANGERS**  \n\nIn between bean– Fine with meeting new people but not particularly interested, kind of shy in busy social situations like a gathering or a packed day in the park. And wants to be friends with everyone who walks by.  \n\n  \n\n**BEHAVIOR WITH CHILDREN (always requires adult supervision)**  \n\nMaybe for age 12 and up – Is either big and energetic (okay with kids big enough not to get knocked down) or a little skittish (could be comfortable with older children that can be extra gentle)  \n\n  \n\n**SOCIAL BEHAVIOR WITH OTHER DOGS**  \n\nMostly – Generally good with other dogs but may be selective (scared of big dogs or plays too rough for small dogs, for example)  \n\n  \n\n**RESPECTFUL BEHAVIOR WITH OTHER ANIMALS (cats, small pets, etc.)**  \n\nNot sure – Wants to chase squirrels and birds so may not be a good match for a home with cats, rabbits, etc.  \n\n  \n\n**MOUTHY BEHAVIOR**  \n\nWorking on it – Is respectful of hands, feet, etc. but likes to chew on things they’re not supposed to like shoes, furniture, etc.  \n\n  \n\n**SEPARATION ANXIETY** (Please leave your foster dog home alone every day for at least 20 minutes.)  \n\nAdjusting – Might cry for a few minutes when you first leave the house but settles pretty quickly and has no problem being left alone otherwise.  \n\n  \n\n**LEASH MANNERS**  \n\nGetting the hang of it– Probably hasn’t been on a leash much in their life but figuring it out. Might be a mild puller but responds to correction.  \n\n  \n\n**CUDDLE BUG LEVEL**  \n\nMedium– Likes to snuggle when he's in the mood but often stays in his own bed  \n\n  \n\n**JUMPING ON PEOPLE TO SAY HELLO**  \n\nListens to correction – Only jumps on people they know when really excited, stops with correction.  \n\n  \n\n**CRATE TRAINING**  \n\nWorking on it - We set one up and leave the door open but rarely close it because the dog freaks out\n\nMedical status:  \n\nHealthy as far as we know. Up to date on their DHPP and Bordetella vaccines, spayed/neutered; microchipped; treated with dewormer upon intake. (For dogs under 4 months old, adopters will need to finish the DHPP vaccine series and administer the Rabies vaccine at 16 weeks of age.)\n\nHow did this dog end up with Social Tees?  \n\nMost of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. \n\nPLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses. \n\nThis animal is not at the Social Tees office, all are in foster homes.\n\nLEARN MORE ABOUT US:[socialteesnyc.org](http://socialteesnyc.org) and Instagram @socialteesnyc",
       "short_description": "Butternut - 8 months & 34lbs, Terrier Mix, Spayed Expected full grown size around 36lbs This puppy is eligible to join our foster-to-adopt program.",
       "color": "Red/Golden/Orange/Chestnut",
-      "attributes": [
-        {
-          "key": "good_with_cats",
-          "display": "Good with cats"
-        },
-        {
-          "key": "good_with_dogs",
-          "display": "Good with dogs"
-        },
-        {
-          "key": "good_with_kids",
-          "display": "Good with kids"
-        },
-        {
-          "key": "housetrained",
-          "display": "Housetrained"
-        },
-        {
-          "key": "shots_current",
-          "display": "Shots current"
-        },
-        {
-          "key": "spayed_neutered",
-          "display": "Spayed/Neutered"
-        }
-      ]
-    },
-    {
-      "id": "49783288",
-      "name": "Maggie",
-      "type": "Dog",
-      "breed": "Chihuahua / Jack Russell Terrier",
-      "age": "Adult",
-      "sex": "Female",
-      "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49783288-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
-      "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347023859",
-      "photos": [
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347023859",
-          "width": 480,
-          "height": 640,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347773426",
-          "width": 480,
-          "height": 640,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347773432",
-          "width": 480,
-          "height": 640,
-          "aspectRatio": 0.75
-        },
-        {
-          "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347773438",
-          "width": 480,
-          "height": 640,
-          "aspectRatio": 0.75
-        }
-      ],
-      "description": "Maggie - 1 year & 15lbs, Chi/Terrier Mix, Spayed This dog is eligible to join our foster-to-adopt program. Please email fostertoadopt@socialteesnyc.org with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a t socialteesnyc.org Thier Foster Parent Says: \"Maggie is a sweet 1-year-old Chihuahua/Jack Russell Terrier mix who weighs a perfectly portable 16 pounds. She was a little shy when she first arrived in foster care, but she warmed up within 24 hours and has been blossoming ever since. Maggie is a true cuddle bug who loves curling up next to her person. She’s the ultimate binge-watching buddy, ready to settle in beside you for one more episode (or five). When you come home, get ready for the best welcome of your day, because her excitement is impossible to resist. But don’t let the couch potato side fool you. Maggie is just as happy to get outside, soak up some fresh air and help you get your steps in. On walks, she has a little prance in her step that will make you smile, and she’s the kind of companion who makes every lap around the block feel like an adventure. She gets along great with her foster siblings, Addy, a 50 lb dog, and Socks, a 12 lb cat, and she’s fully house-trained with zero accidents. Maggie takes her job as head of household seriously. She’s devoted to her person. She’ll do best with an adopter who can give her patience, consistency and lots of love. Once she knows she’s yours, you’ve got a loyal sidekick for life.\" Level of dog ownership experience required: BEGINNER – “Beginner” doesn’t necessarily mean easy as all dogs will require time, work, and patience, but we predict this dog will be low on the challenge scale because of their breed/age combo. Potentially a good fit for someone who has relevant dog care experience (fostering, dog sitting) and is looking to adopt their first pup. Energy level: MEDIUM – Needs a daily 60 walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) TOLERANCE TO CITY Adjusting to the city – Spooked easily by loud noises and bustling areas but walks pretty well in quiet areas and probably just needs more time to adjust (may be a puppy or a brand new rescue). Would prefer a home in a calmer part of the city or the suburbs. POTTY TRAINING Yes – Few or no accidents COMFORT LEVEL WITH STRANGERS In between bean – Fine with meeting new people but not particularly interested, kind of shy in busy social situations like a gathering or a packed day in the park. BEHAVIOR WITH CHILDREN (always requires adult supervision) Maybe for age 12 and up – Is either big and energetic (okay with kids big enough not to get knocked down) or a little skittish (could be comfortable with older children that can be extra gentle) SOCIAL BEHAVIOR WITH OTHER DOGS Mostly – Generally good with other dogs but may be selective (scared of big dogs or plays too rough for small dogs, for example) RESPECTFUL BEHAVIOR WITH OTHER ANIMALS (cats, small pets, etc.) Yes – Seems to get along with cats etc., either tries to play with them or is mostly uninterested. Currently living with a cat. MOUTHY BEHAVIOR Past this stage– Little to no interest in chewing on stuff or putting things in their mouth that aren’t food. Doesn’t try to chew on hands, feet, etc. during playtime SEPARATION ANXIETY (Please leave your foster dog home alone every day for at least 20 minutes.) Past this stage – Completely fine being left home alone. Doesn’t cry or exhibit destructive behavior when you leave the apartment or house. LEASH MANNERS Getting the hang of it – Probably hasn’t been on a leash much in their life but figuring it out. Might be a mild puller but responds to correction. CUDDLE BUG LEVEL High – Wants to be in your lap pretty much all the time JUMPING ON PEOPLE TO SAY HELLO Listens to correction – Only jumps on people they know when really excited, stops with correction. CRATE TRAINING Yep/mostly – Seems comfortable in the crate, may whine a little at first but settles pretty quickly. We use the crate when we leave the pup alone and/or at night. Medical status: Healthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake How did this dog end up with Social Tees? Most of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. PLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses. This animal is not at the Social Tees office, all are in foster homes. LEARN MORE ABOUT US: socialteesnyc.org and Instagram @socialteesnyc",
-      "descriptionHtml": "<p>Maggie - 1 year &amp; 15lbs, Chi/Terrier Mix, Spayed </p>\n\n<p>This dog is eligible to join our foster-to-adopt program. Please email <a href=\"mailto:fostertoadopt@socialteesnyc.org\">fostertoadopt@socialteesnyc.org</a> with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a<a href=\"http://socialteesnyc.org\">t socialteesnyc.org</a></p>\n\n<p><strong>Thier Foster Parent Says: </strong>\"Maggie is a sweet 1-year-old Chihuahua/Jack Russell Terrier mix who weighs a perfectly portable 16 pounds. She was a little shy when she first arrived in foster care, but she warmed up within 24 hours and has been blossoming ever since. Maggie is a true cuddle bug who loves curling up next to her person. She’s the ultimate binge-watching buddy, ready to settle in beside you for one more episode (or five). When you come home, get ready for the best welcome of your day, because her excitement is impossible to resist. But don’t let the couch potato side fool you. Maggie is just as happy to get outside, soak up some fresh air and help you get your steps in. On walks, she has a little prance in her step that will make you smile, and she’s the kind of companion who makes every lap around the block feel like an adventure. She gets along great with her foster siblings, Addy, a 50 lb dog, and Socks, a 12 lb cat, and she’s fully house-trained with zero accidents. Maggie takes her job as head of household seriously. She’s devoted to her person. She’ll do best with an adopter who can give her patience, consistency and lots of love. Once she knows she’s yours, you’ve got a loyal sidekick for life.\"</p>\n\n<p><strong>Level of dog ownership experience required:</strong><br>BEGINNER – “Beginner” doesn’t necessarily mean easy as all dogs will require time, work, and patience, but we predict this dog will be low on the challenge scale because of their breed/age combo. Potentially a good fit for someone who has relevant dog care experience (fostering, dog sitting) and is looking to adopt their first pup. </p>\n\n<p><strong>Energy level:</strong><br>MEDIUM – Needs a daily 60 walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) </p>\n\n<p><strong>TOLERANCE TO CITY</strong><br>Adjusting to the city – Spooked easily by loud noises and bustling areas but walks pretty well in quiet areas and probably just needs more time to adjust (may be a puppy or a brand new rescue). Would prefer a home in a calmer part of the city or the suburbs.</p>\n\n<p><strong>POTTY TRAINING</strong><br>Yes – Few or no accidents</p>\n\n<p><strong>COMFORT LEVEL WITH STRANGERS</strong><br>In between bean <strong> </strong>– Fine with meeting new people but not particularly interested, kind of shy in busy social situations like a gathering or a packed day in the park. </p>\n\n<p><strong>BEHAVIOR WITH CHILDREN (always requires adult supervision)</strong><br>Maybe for age 12 and up – Is either big and energetic (okay with kids big enough not to get knocked down) or a little skittish (could be comfortable with older children that can be extra gentle) </p>\n\n<p><strong>SOCIAL BEHAVIOR WITH OTHER DOGS</strong><br>Mostly<strong> </strong>– Generally good with other dogs but may be selective (scared of big dogs or plays too rough for small dogs, for example) </p>\n\n<p><strong>RESPECTFUL BEHAVIOR WITH OTHER ANIMALS (cats, small pets, etc.)</strong><br>Yes – Seems to get along with cats etc., either tries to play with them or is mostly uninterested. Currently living with a cat. </p>\n\n<p><strong>MOUTHY BEHAVIOR</strong><br>Past this stage– Little to no interest in chewing on stuff or putting things in their mouth that aren’t food. Doesn’t try to chew on hands, feet, etc. during playtime</p>\n\n<p><strong>SEPARATION ANXIETY</strong><strong> </strong>(Please leave your foster dog home alone every day for at least 20 minutes.)<br>Past this stage – Completely fine being left home alone. Doesn’t cry or exhibit destructive behavior when you leave the apartment or house.</p>\n\n<p><strong>LEASH MANNERS</strong><br>Getting the hang of it – Probably hasn’t been on a leash much in their life but figuring it out. Might be a mild puller but responds to correction. </p>\n\n<p><strong>CUDDLE BUG LEVEL</strong><br>High – Wants to be in your lap pretty much all the time</p>\n\n<p><strong>JUMPING ON PEOPLE TO SAY HELLO</strong><br>Listens to correction – Only jumps on people they know when really excited, stops with correction.</p>\n\n<p><strong>CRATE TRAINING</strong><br>Yep/mostly – Seems comfortable in the crate, may whine a little at first but settles pretty quickly. We use the crate when we leave the pup alone and/or at night. </p>\n\n<p>Medical status:<br>Healthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake</p>\n\n<p>How did this dog end up with Social Tees?<br>Most of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. </p>\n\n<p>PLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses.</p>\n\n<p>This animal is not at the Social Tees office, all are in foster homes.</p>\n\n<p>LEARN MORE ABOUT US:<a href=\"http://socialteesnyc.org\"> socialteesnyc.org</a> and Instagram @socialteesnyc</p>",
-      "descriptionMarkdown": "Maggie - 1 year & 15lbs, Chi/Terrier Mix, Spayed \n\nThis dog is eligible to join our foster-to-adopt program. Please email [fostertoadopt@socialteesnyc.org](mailto:fostertoadopt@socialteesnyc.org) with the animal’s name in the subject line if you are interested! Want to straight up adopt? Submit an adoption application a[t socialteesnyc.org](http://socialteesnyc.org)\n\n**Thier Foster Parent Says:** \"Maggie is a sweet 1-year-old Chihuahua/Jack Russell Terrier mix who weighs a perfectly portable 16 pounds. She was a little shy when she first arrived in foster care, but she warmed up within 24 hours and has been blossoming ever since. Maggie is a true cuddle bug who loves curling up next to her person. She’s the ultimate binge-watching buddy, ready to settle in beside you for one more episode (or five). When you come home, get ready for the best welcome of your day, because her excitement is impossible to resist. But don’t let the couch potato side fool you. Maggie is just as happy to get outside, soak up some fresh air and help you get your steps in. On walks, she has a little prance in her step that will make you smile, and she’s the kind of companion who makes every lap around the block feel like an adventure. She gets along great with her foster siblings, Addy, a 50 lb dog, and Socks, a 12 lb cat, and she’s fully house-trained with zero accidents. Maggie takes her job as head of household seriously. She’s devoted to her person. She’ll do best with an adopter who can give her patience, consistency and lots of love. Once she knows she’s yours, you’ve got a loyal sidekick for life.\"\n\n**Level of dog ownership experience required:**  \n\nBEGINNER – “Beginner” doesn’t necessarily mean easy as all dogs will require time, work, and patience, but we predict this dog will be low on the challenge scale because of their breed/age combo. Potentially a good fit for someone who has relevant dog care experience (fostering, dog sitting) and is looking to adopt their first pup. \n\n**Energy level:**  \n\nMEDIUM – Needs a daily 60 walk or window of quick paced exercise (minimum) in addition to potty break strolls (10-30 min each). Also needs significant socializing opportunities outside the home and mental stimulation at home like tricks training practice, chew items, and puzzle toys. (This is regardless of dog size – many small breeds were designed for lots of activity and will exhibit unwanted behavior when they’re understimulated.) \n\n**TOLERANCE TO CITY**  \n\nAdjusting to the city – Spooked easily by loud noises and bustling areas but walks pretty well in quiet areas and probably just needs more time to adjust (may be a puppy or a brand new rescue). Would prefer a home in a calmer part of the city or the suburbs.\n\n**POTTY TRAINING**  \n\nYes – Few or no accidents\n\n**COMFORT LEVEL WITH STRANGERS**  \n\nIn between bean – Fine with meeting new people but not particularly interested, kind of shy in busy social situations like a gathering or a packed day in the park. \n\n**BEHAVIOR WITH CHILDREN (always requires adult supervision)**  \n\nMaybe for age 12 and up – Is either big and energetic (okay with kids big enough not to get knocked down) or a little skittish (could be comfortable with older children that can be extra gentle) \n\n**SOCIAL BEHAVIOR WITH OTHER DOGS**  \n\nMostly– Generally good with other dogs but may be selective (scared of big dogs or plays too rough for small dogs, for example) \n\n**RESPECTFUL BEHAVIOR WITH OTHER ANIMALS (cats, small pets, etc.)**  \n\nYes – Seems to get along with cats etc., either tries to play with them or is mostly uninterested. Currently living with a cat. \n\n**MOUTHY BEHAVIOR**  \n\nPast this stage– Little to no interest in chewing on stuff or putting things in their mouth that aren’t food. Doesn’t try to chew on hands, feet, etc. during playtime\n\n**SEPARATION ANXIETY** (Please leave your foster dog home alone every day for at least 20 minutes.)  \n\nPast this stage – Completely fine being left home alone. Doesn’t cry or exhibit destructive behavior when you leave the apartment or house.\n\n**LEASH MANNERS**  \n\nGetting the hang of it – Probably hasn’t been on a leash much in their life but figuring it out. Might be a mild puller but responds to correction. \n\n**CUDDLE BUG LEVEL**  \n\nHigh – Wants to be in your lap pretty much all the time\n\n**JUMPING ON PEOPLE TO SAY HELLO**  \n\nListens to correction – Only jumps on people they know when really excited, stops with correction.\n\n**CRATE TRAINING**  \n\nYep/mostly – Seems comfortable in the crate, may whine a little at first but settles pretty quickly. We use the crate when we leave the pup alone and/or at night. \n\nMedical status:  \n\nHealthy as far as we know. Up to date on their DHPP, Bordetella, and Rabies vaccines; heartworm tested if coming from Tennessee or Puerto Rico; spayed/neutered; microchipped; treated with dewormer upon intake\n\nHow did this dog end up with Social Tees?  \n\nMost of our dogs come via partner groups who help us save them from shelters where they are at risk of euthanasia in Tennessee, Los Angeles, and Puerto Rico. There are very few spay/neuter resources there and many more animals in those areas than there are people to adopt them. Rescue groups like ours bring them to the northeast where the desire for pets like these allows us to save their lives. \n\nPLEASE NOTE: We cannot guarantee any breed mix, exact age, or full grown size (if the dog is under a year old). We do our best with very educated guesses.\n\nThis animal is not at the Social Tees office, all are in foster homes.\n\nLEARN MORE ABOUT US:[socialteesnyc.org](http://socialteesnyc.org) and Instagram @socialteesnyc",
-      "short_description": "Maggie - 1 year & 15lbs, Chi/Terrier Mix, Spayed This dog is eligible to join our foster-to-adopt program.",
-      "color": "White - with Tan, Yellow or Fawn",
       "attributes": [
         {
           "key": "good_with_cats",
@@ -1836,7 +1700,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49678405-manhattan-new-york-boxer-mix",
+      "url": "https://www.adoptapet.com/pet/49678405-manhattan-new-york-boxer-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1344440856",
       "photos": [
         {
@@ -3026,7 +2890,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/48296193-manhattan-new-york-labrador-retriever-mix",
+      "url": "https://www.adoptapet.com/pet/48296193-manhattan-new-york-labrador-retriever-border-collie-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1311673976",
       "photos": [
         {
@@ -3088,7 +2952,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/48296192-manhattan-new-york-beagle-hound-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/48296192-manhattan-beagle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1311673949",
       "photos": [
         {
@@ -3152,7 +3016,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/47939718-manhattan-new-york-cattle-dog-mix",
+      "url": "https://www.adoptapet.com/pet/47939718-manhattan-cattle-dog-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1303753683",
       "photos": [
         {
@@ -3276,5 +3140,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-14T23:08:53Z"
+  "updatedAt": "2026-11-15T11:08:57Z"
 }
