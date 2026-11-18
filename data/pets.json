@@ -8,7 +8,7 @@
       "age": "Young",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/50002781-manhattan-new-york-terrier-unknown-type-medium-cattle-dog-mix",
+      "url": "https://www.adoptapet.com/pet/50002781-manhattan-new-york-terrier-unknown-type-medium-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351820926",
       "photos": [
         {
@@ -72,7 +72,7 @@
       "age": "Senior",
       "sex": "Male",
       "size": "Large 61-100 Lbs (28-45 Kg)",
-      "url": "https://www.adoptapet.com/pet/50002780-manhattan-new-york-australian-shepherd-hound-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/50002780-manhattan-new-york-australian-shepherd-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351820816",
       "photos": [
         {
@@ -192,7 +192,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49988498-manhattan-new-york-beagle-hound-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/49988498-manhattan-new-york-beagle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351559022",
       "photos": [
         {
@@ -322,7 +322,7 @@
       "age": "Adult",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49988496-manhattan-new-york-chihuahua-dachshund-mix",
+      "url": "https://www.adoptapet.com/pet/49988496-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1351558974",
       "photos": [
         {
@@ -508,7 +508,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49902525-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49902525-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1349829933",
       "photos": [
         {
@@ -576,7 +576,7 @@
       "age": "Puppy",
       "sex": null,
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49866714-manhattan-new-york-shepherd-unknown-type-labrador-retriever-mix",
+      "url": "https://www.adoptapet.com/pet/49866714-manhattan-new-york-shepherd-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954661",
       "photos": [
         {
@@ -644,7 +644,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49866713-manhattan-new-york-jack-russell-terrier-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49866713-manhattan-new-york-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954652",
       "photos": [
         {
@@ -1208,13 +1208,13 @@
       "age": "Young",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49814160-manhattan-new-york-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49814160-manhattan-new-york-chihuahua-dachshund-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347773483",
       "photos": [
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347773483",
-          "width": 750,
-          "height": 1000,
+          "width": 480,
+          "height": 640,
           "aspectRatio": 0.75
         },
         {
@@ -1225,8 +1225,8 @@
         },
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1347773498",
-          "width": 480,
-          "height": 640,
+          "width": 750,
+          "height": 1000,
           "aspectRatio": 0.75
         },
         {
@@ -1632,7 +1632,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49678405-manhattan-new-york-boxer-mix",
+      "url": "https://www.adoptapet.com/pet/49678405-manhattan-new-york-boxer-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1344440856",
       "photos": [
         {
@@ -2948,7 +2948,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/47939718-manhattan-cattle-dog-mix",
+      "url": "https://www.adoptapet.com/pet/47939718-manhattan-new-york-cattle-dog-australian-shepherd-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1303753683",
       "photos": [
         {
@@ -3072,5 +3072,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-17T23:09:41Z"
+  "updatedAt": "2026-11-18T11:10:24Z"
 }
