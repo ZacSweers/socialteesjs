@@ -940,7 +940,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49857606-manhattan-new-york-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49857606-manhattan-new-york-jack-russell-terrier-beagle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954643",
       "photos": [
         {
@@ -1866,7 +1866,7 @@
       "age": "Adult",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49436168-manhattan-new-york-english-pointer-mix",
+      "url": "https://www.adoptapet.com/pet/49436168-manhattan-new-york-english-pointer-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1339024782",
       "photos": [
         {
@@ -2236,7 +2236,7 @@
       "age": "Adult",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49130263-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49130263-manhattan-new-york-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1331328175",
       "photos": [
         {
@@ -2736,5 +2736,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-21T11:09:03Z"
+  "updatedAt": "2026-11-21T23:08:59Z"
 }
