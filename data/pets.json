@@ -826,7 +826,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/49857606-manhattan-new-york-jack-russell-terrier-beagle-mix",
+      "url": "https://www.adoptapet.com/pet/49857606-manhattan-new-york-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1348954643",
       "photos": [
         {
@@ -1300,7 +1300,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49678405-manhattan-new-york-boxer-mix",
+      "url": "https://www.adoptapet.com/pet/49678405-manhattan-new-york-boxer-hound-unknown-type-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1344440856",
       "photos": [
         {
@@ -1617,9 +1617,9 @@
       "photos": [
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1339024755",
-          "width": 750,
+          "width": 927,
           "height": 1000,
-          "aspectRatio": 0.75
+          "aspectRatio": 0.927
         },
         {
           "originalUrl": "https://media.adoptapet.com/image/upload/f_auto,q_auto/1339024764",
@@ -1850,7 +1850,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49231155-manhattan-new-york-chihuahua-mix",
+      "url": "https://www.adoptapet.com/pet/49231155-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1333731062",
       "photos": [
         {
@@ -2418,5 +2418,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-25T11:10:20Z"
+  "updatedAt": "2026-11-25T23:09:52Z"
 }
