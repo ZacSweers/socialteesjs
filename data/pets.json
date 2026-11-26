@@ -1044,7 +1044,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49802063-manhattan-new-york-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49802063-manhattan-new-york-jack-russell-terrier-cattle-dog-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1347494690",
       "photos": [
         {
@@ -1238,7 +1238,7 @@
       "age": "Puppy",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/49715247-manhattan-new-york-pit-bull-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/49715247-manhattan-new-york-pit-bull-terrier-labrador-retriever-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1345331459",
       "photos": [
         {
@@ -2230,7 +2230,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/48296192-manhattan-new-york-beagle-hound-unknown-type-mix",
+      "url": "https://www.adoptapet.com/pet/48296192-manhattan-new-york-beagle-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1311673949",
       "photos": [
         {
@@ -2357,7 +2357,7 @@
       "age": "Senior",
       "sex": "Female",
       "size": "Small 25 Lbs (11 Kg) Or Less",
-      "url": "https://www.adoptapet.com/pet/45966336-manhattan-new-york-chihuahua-jack-russell-terrier-mix",
+      "url": "https://www.adoptapet.com/pet/45966336-manhattan-chihuahua-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1257036548",
       "photos": [
         {
@@ -2418,5 +2418,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-25T23:09:52Z"
+  "updatedAt": "2026-11-26T11:09:50Z"
 }
