@@ -2168,7 +2168,7 @@
       "age": "Puppy",
       "sex": "Male",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/48296193-manhattan-new-york-labrador-retriever-border-collie-mix",
+      "url": "https://www.adoptapet.com/pet/48296193-manhattan-new-york-labrador-retriever-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1311673976",
       "photos": [
         {
@@ -2294,7 +2294,7 @@
       "age": "Young",
       "sex": "Female",
       "size": "Med. 26-60 Lbs (12-27 Kg)",
-      "url": "https://www.adoptapet.com/pet/47939718-manhattan-new-york-cattle-dog-mix",
+      "url": "https://www.adoptapet.com/pet/47939718-manhattan-cattle-dog-mix",
       "photoUrl": "https://media.adoptapet.com/image/upload/if_fc_gt_0,c_fill,g_face,h_600,w_800/if_else/c_fill,g_auto:classic,h_600,w_800/if_end/f_auto,q_auto/1303753683",
       "photos": [
         {
@@ -2418,5 +2418,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-11-27T23:09:54Z"
+  "updatedAt": "2026-11-28T11:09:06Z"
 }
